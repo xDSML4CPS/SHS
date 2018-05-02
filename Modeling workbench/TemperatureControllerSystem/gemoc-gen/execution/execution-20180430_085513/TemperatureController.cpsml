@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cpsml:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cpsml="http://www.example.org/cpsml" name="Temperature Control System" relatedvariable="//@ownedvariables.0" initialState="//@ownedStates.0">
+  <ownedvariables value="21.0"/>
+  <ownedStates name="Initial" outgoingComTransitions="//@ownedTransitions.0"/>
+  <ownedStates name="OFF         Heating" slaveode="//@ownedodes.0" incomingComTransitions="//@ownedTransitions.0 //@ownedTransitions.3 //@ownedTransitions.4" outgoingProbTransitions="//@ownedTransitions.1 //@ownedTransitions.2"/>
+  <ownedStates name="ON                 Air Conditioner" outgoingComTransitions="//@ownedTransitions.4" incomingProbTransitions="//@ownedTransitions.2" initialsubstate="//@ownedStates.2/@subStates.0" subrelatedvariable="//@ownedvariables.0">
+    <subStates name="Strong" slaveode="//@ownedStates.2/@subodes.0" outgoingComTransitions="//@ownedStates.2/@subtransitions.0"/>
+    <subStates name="Weak" slaveode="//@ownedStates.2/@subodes.1" incomingComTransitions="//@ownedStates.2/@subtransitions.0"/>
+    <subtransitions xsi:type="cpsml:ComTransition" name="Strong_toWeak" relatedvariable2="//@ownedvariables.0" event="approach" guard="y&lt;24" action="Strong_to_Weak" csrc="//@ownedStates.2/@subStates.0" ctgt="//@ownedStates.2/@subStates.1"/>
+    <subodes name="StrongODE: y'=-0.07*y-0.1">
+      <function name="f3">
+        <indevariable name="t"/>
+        <devariable name="y"/>
+        <fright name="-0.07*y-0.1"/>
+      </function>
+      <condition name="y0=32"/>
+      <interval right="120.0" subinterval="0.1"/>
+    </subodes>
+    <subodes name="WeakODE: y'=-0.04*y-0.1">
+      <function name="f4">
+        <indevariable name="t"/>
+        <devariable name="y"/>
+        <fright name="-0.04*y-0.1"/>
+      </function>
+      <condition name="y0=24"/>
+      <interval right="120.0" subinterval="0.1"/>
+    </subodes>
+  </ownedStates>
+  <ownedStates name="ON               Electrtic Fan" slaveode="//@ownedodes.1" outgoingComTransitions="//@ownedTransitions.3" incomingProbTransitions="//@ownedTransitions.1"/>
+  <ownedTransitions xsi:type="cpsml:ComTransition" name="Initial_toHeating" relatedvariable2="//@ownedvariables.0" event="heat" guard="y&lt;32" action="Initial_to_Heating" csrc="//@ownedStates.0" ctgt="//@ownedStates.1"/>
+  <ownedTransitions xsi:type="cpsml:ProbTransition" name="Heating_to_Electric Fan" relatedvariable2="//@ownedvariables.0" event="cool" guard="y>32" action="Heating_to_Electric Fan" probability="0.4" psrc="//@ownedStates.1" ptgt="//@ownedStates.3"/>
+  <ownedTransitions xsi:type="cpsml:ProbTransition" name="Heating_to_Air Conditioner" relatedvariable2="//@ownedvariables.0" event="cool" guard="y>32" action="Heating_to_Air Conditioner" probability="0.6" psrc="//@ownedStates.1" ptgt="//@ownedStates.2"/>
+  <ownedTransitions xsi:type="cpsml:ComTransition" name="Electric Fan_to_Heating" relatedvariable2="//@ownedvariables.0" event="off" guard="y&lt;21" action="Electric Fan_to_Heating" csrc="//@ownedStates.3" ctgt="//@ownedStates.1"/>
+  <ownedTransitions xsi:type="cpsml:ComTransition" name="Air Conditioner_to_Heating" relatedvariable2="//@ownedvariables.0" event="off" guard="y&lt;21" action="Air Conditioner_to_Heating" csrc="//@ownedStates.2" ctgt="//@ownedStates.1"/>
+  <ownedodes name="HeatingODE: y'=0.017*y-0.1">
+    <function name="f1">
+      <indevariable name="t"/>
+      <devariable name="y"/>
+      <fright name="0.017*y-0.1"/>
+    </function>
+    <condition name="y0=21"/>
+    <interval name="" right="120.0" subinterval="0.1"/>
+  </ownedodes>
+  <ownedodes name="Electric Fan ODE: y'=-0.024*y-0.1">
+    <function name="f2">
+      <indevariable name="t"/>
+      <devariable name="y"/>
+      <fright name="-0.024*y-0.1"/>
+    </function>
+    <condition name="y0=32"/>
+    <interval name="" right="120.0" subinterval="0.1"/>
+  </ownedodes>
+</cpsml:System>

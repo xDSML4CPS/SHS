@@ -1,0 +1,1750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cpsml="http://www.example.org/cpsml" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_HKXGQEmzEeiuv6VtVNhzdQ" selectedViews="_OVyLIEmzEeiuv6VtVNhzdQ" version="11.1.0.201608251200">
+    <semanticResources>gemoc-gen/execution/execution-20180427_225928/TemperatureController.cpsml</semanticResources>
+    <semanticResources>gemoc-gen/execution/execution-20180428_070135/TemperatureController.cpsml</semanticResources>
+    <semanticResources>gemoc-gen/execution/execution-20180428_103313/TemperatureController.cpsml</semanticResources>
+    <semanticResources>gemoc-gen/execution/execution-20180428_104109/TemperatureController.cpsml</semanticResources>
+    <semanticResources>gemoc-gen/execution/execution-20180428_135122/TemperatureController.cpsml</semanticResources>
+    <semanticResources>TemperatureController.cpsml</semanticResources>
+    <semanticResources>gemoc-gen/execution/execution-20180429_123040/TemperatureController.cpsml</semanticResources>
+    <semanticResources>gemoc-gen/execution/execution-20180429_124603/TemperatureController.cpsml</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_OVyLIEmzEeiuv6VtVNhzdQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_OWYoEEmzEeiuv6VtVNhzdQ" name="System" representation="_OWYoEUmzEeiuv6VtVNhzdQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']"/>
+        <target xmi:type="cpsml:System" href="TemperatureController.cpsml#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_jb55MEnHEeiuv6VtVNhzdQ" name="Information of  Air Conditioner" representation="_jb55MUnHEeiuv6VtVNhzdQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']"/>
+        <target xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.2"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_OWYoEUmzEeiuv6VtVNhzdQ" name="System">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_OWYoEkmzEeiuv6VtVNhzdQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_OWYoE0mzEeiuv6VtVNhzdQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_OWhyAEmzEeiuv6VtVNhzdQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_OWhyAUmzEeiuv6VtVNhzdQ" type="Sirius" element="_OWYoEUmzEeiuv6VtVNhzdQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_85hO8Em6Eeiuv6VtVNhzdQ" type="2001" element="_85D78Em6Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_85mugEm6Eeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_85mugUm6Eeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_85pKwEm6Eeiuv6VtVNhzdQ" type="3003" element="_85EjAEm6Eeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_85pKwUm6Eeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_85pKwkm6Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_85hO8Um6Eeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="14"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_85hO8km6Eeiuv6VtVNhzdQ" x="337" y="20" width="131" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Lo4J4Em8Eeiuv6VtVNhzdQ" type="2002" element="_LolO8Em8Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_Lo4J40m8Eeiuv6VtVNhzdQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_Lo4J5Em8Eeiuv6VtVNhzdQ" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Lo4J5Um8Eeiuv6VtVNhzdQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Lo4J5km8Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Lo4J4Um8Eeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="14"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lo4J4km8Eeiuv6VtVNhzdQ" x="520" y="20" width="143"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_WySHQEm8Eeiuv6VtVNhzdQ" type="2002" element="_WyIWQEm8Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_WySHQ0m8Eeiuv6VtVNhzdQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_WySHREm8Eeiuv6VtVNhzdQ" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_WySHRUm8Eeiuv6VtVNhzdQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_WySHRkm8Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_WySHQUm8Eeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="14"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WySHQkm8Eeiuv6VtVNhzdQ" x="520" y="170" width="143"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_egNcQEm8Eeiuv6VtVNhzdQ" type="2002" element="_egDrQEm8Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_egNcQ0m8Eeiuv6VtVNhzdQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_egNcREm8Eeiuv6VtVNhzdQ" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_egNcRUm8Eeiuv6VtVNhzdQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_egNcRkm8Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_egNcQUm8Eeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="14"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_egNcQkm8Eeiuv6VtVNhzdQ" x="303" y="390" width="148" height="75"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_kFHPQEm8Eeiuv6VtVNhzdQ" type="2002" element="_kE-FUEm8Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_kFHPQ0m8Eeiuv6VtVNhzdQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_kFHPREm8Eeiuv6VtVNhzdQ" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_kFHPRUm8Eeiuv6VtVNhzdQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_kFHPRkm8Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_kFHPQUm8Eeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="14"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kFHPQkm8Eeiuv6VtVNhzdQ" x="765" y="400" width="150"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_0NAf4Em8Eeiuv6VtVNhzdQ" type="2001" element="_0M2u4Em8Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_0NAf40m8Eeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_0NAf5Em8Eeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_0NAf70m8Eeiuv6VtVNhzdQ" type="3003" element="_0M2u4Um8Eeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_0NAf8Em8Eeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0NAf8Um8Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_0NAf4Um8Eeiuv6VtVNhzdQ" fontColor="1345869" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0NAf4km8Eeiuv6VtVNhzdQ" x="555" y="115" width="131" height="21"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_0NAf5Um8Eeiuv6VtVNhzdQ" type="2001" element="_0M2u4km8Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_0NAf6Em8Eeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_0NAf6Um8Eeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_0NAf8km8Eeiuv6VtVNhzdQ" type="3016" element="_0M2u40m8Eeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_0NAf80m8Eeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0NAf9Em8Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_0NAf5km8Eeiuv6VtVNhzdQ" fontColor="13606770" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0NAf50m8Eeiuv6VtVNhzdQ" x="590" y="130" width="126" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_0NAf6km8Eeiuv6VtVNhzdQ" type="2001" element="_0M2u5Em8Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_0NAf7Um8Eeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_0NAf7km8Eeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_0NAf9Um8Eeiuv6VtVNhzdQ" type="3003" element="_0M2u5Um8Eeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_0NAf9km8Eeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0NAf90m8Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_0NAf60m8Eeiuv6VtVNhzdQ" fontColor="7490599" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0NAf7Em8Eeiuv6VtVNhzdQ" x="585" y="95" width="65" height="21"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_J5CHcEm9Eeiuv6VtVNhzdQ" type="2001" element="_J44WcEm9Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_J5CHc0m9Eeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_J5CHdEm9Eeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_J5CHhEm9Eeiuv6VtVNhzdQ" type="3003" element="_J44WcUm9Eeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_J5CHhUm9Eeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J5CHhkm9Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_J5CHcUm9Eeiuv6VtVNhzdQ" fontColor="1345869" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J5CHckm9Eeiuv6VtVNhzdQ" x="575" y="294" width="91" height="22"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_J5CHdUm9Eeiuv6VtVNhzdQ" type="2001" element="_J44Wckm9Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_J5CHeEm9Eeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_J5CHeUm9Eeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_J5CHh0m9Eeiuv6VtVNhzdQ" type="3016" element="_J44Wc0m9Eeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_J5CHiEm9Eeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J5CHiUm9Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_J5CHdkm9Eeiuv6VtVNhzdQ" fontColor="13606770" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J5CHd0m9Eeiuv6VtVNhzdQ" x="585" y="310" width="166" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_J5CHekm9Eeiuv6VtVNhzdQ" type="2001" element="_J44Wdkm9Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_J5CHfUm9Eeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_J5CHfkm9Eeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_J5CHikm9Eeiuv6VtVNhzdQ" type="3003" element="_J44Wd0m9Eeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_J5CHi0m9Eeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J5CHjEm9Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_J5CHe0m9Eeiuv6VtVNhzdQ" fontColor="7490599" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J5CHfEm9Eeiuv6VtVNhzdQ" x="590" y="270" width="56" height="25"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_J5CHf0m9Eeiuv6VtVNhzdQ" type="2001" element="_J44WdEm9Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_J5CHgkm9Eeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_J5CHg0m9Eeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_J5CHjUm9Eeiuv6VtVNhzdQ" type="3016" element="_J44WdUm9Eeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_J5CHjkm9Eeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J5CHj0m9Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_J5CHgEm9Eeiuv6VtVNhzdQ" fontColor="2697711" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J5CHgUm9Eeiuv6VtVNhzdQ" x="580" y="250" width="66" height="21"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ydJPVEm9Eeiuv6VtVNhzdQ" type="2001" element="_ydAFYEm9Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_ydTAUEm9Eeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ydTAUUm9Eeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ydTAYUm9Eeiuv6VtVNhzdQ" type="3003" element="_ydAFYUm9Eeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ydTAYkm9Eeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydTAY0m9Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ydJPVUm9Eeiuv6VtVNhzdQ" fontColor="1345869" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydJPVkm9Eeiuv6VtVNhzdQ" x="480" y="360" width="61" height="21"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ydTAUkm9Eeiuv6VtVNhzdQ" type="2001" element="_ydAFYkm9Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_ydTAVUm9Eeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ydTAVkm9Eeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ydTAZEm9Eeiuv6VtVNhzdQ" type="3016" element="_ydAFY0m9Eeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ydTAZUm9Eeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydTAZkm9Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ydTAU0m9Eeiuv6VtVNhzdQ" fontColor="13606770" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydTAVEm9Eeiuv6VtVNhzdQ" x="485" y="380" width="170" height="25"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ydTAV0m9Eeiuv6VtVNhzdQ" type="2001" element="_ydJPUkm9Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_ydTAWkm9Eeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ydTAW0m9Eeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ydTAZ0m9Eeiuv6VtVNhzdQ" type="3003" element="_ydJPU0m9Eeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ydTAaEm9Eeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydTAaUm9Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ydTAWEm9Eeiuv6VtVNhzdQ" fontColor="7490599" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydTAWUm9Eeiuv6VtVNhzdQ" x="485" y="335" width="50" height="26"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ydTAXEm9Eeiuv6VtVNhzdQ" type="2001" element="_ydJPUEm9Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_ydTAX0m9Eeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ydTAYEm9Eeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ydTAakm9Eeiuv6VtVNhzdQ" type="3016" element="_ydJPUUm9Eeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ydTAa0m9Eeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydTAbEm9Eeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ydTAXUm9Eeiuv6VtVNhzdQ" fontColor="2697711" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydTAXkm9Eeiuv6VtVNhzdQ" x="473" y="310" width="65" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3G7EkEnCEeiuv6VtVNhzdQ" type="2001" element="_3Gx6oEnCEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_3HE1kEnCEeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3HE1kUnCEeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3HE1nEnCEeiuv6VtVNhzdQ" type="3003" element="_3Gx6oUnCEeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3HE1nUnCEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3HE1nknCEeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3G7EkUnCEeiuv6VtVNhzdQ" fontColor="1345869" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3G7EkknCEeiuv6VtVNhzdQ" x="778" y="296" width="70" height="25"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3HE1kknCEeiuv6VtVNhzdQ" type="2001" element="_3Gx6oknCEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_3HE1lUnCEeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3HE1lknCEeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3HE1n0nCEeiuv6VtVNhzdQ" type="3016" element="_3Gx6o0nCEeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3HE1oEnCEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3HE1oUnCEeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3HE1k0nCEeiuv6VtVNhzdQ" fontColor="13606770" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3HE1lEnCEeiuv6VtVNhzdQ" x="770" y="275" width="181" height="26"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_3HE1l0nCEeiuv6VtVNhzdQ" type="2001" element="_3Gx6pEnCEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_3HE1mknCEeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3HE1m0nCEeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3HE1oknCEeiuv6VtVNhzdQ" type="3003" element="_3Gx6pUnCEeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_3HE1o0nCEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3HE1pEnCEeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3HE1mEnCEeiuv6VtVNhzdQ" fontColor="7490599" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3HE1mUnCEeiuv6VtVNhzdQ" x="765" y="320" width="86" height="24"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ipAZc0nDEeiuv6VtVNhzdQ" type="2001" element="_io2oc0nDEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_ipAZdknDEeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ipAZd0nDEeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ipAZgknDEeiuv6VtVNhzdQ" type="3003" element="_io2odEnDEeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ipAZg0nDEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ipAZhEnDEeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ipAZdEnDEeiuv6VtVNhzdQ" fontColor="1345869" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ipAZdUnDEeiuv6VtVNhzdQ" x="340" y="332" width="77" height="25"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ipAZeEnDEeiuv6VtVNhzdQ" type="2001" element="_io2odUnDEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_ipAZe0nDEeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ipAZfEnDEeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ipAZhUnDEeiuv6VtVNhzdQ" type="3016" element="_ipAZcEnDEeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ipAZhknDEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ipAZh0nDEeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ipAZeUnDEeiuv6VtVNhzdQ" fontColor="13606770" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ipAZeknDEeiuv6VtVNhzdQ" x="293" y="310" width="181" height="23"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ipAZfUnDEeiuv6VtVNhzdQ" type="2001" element="_ipAZcUnDEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_ipAZgEnDEeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ipAZgUnDEeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ipAZiEnDEeiuv6VtVNhzdQ" type="3003" element="_ipAZcknDEeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ipAZiUnDEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ipAZiknDEeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ipAZfknDEeiuv6VtVNhzdQ" fontColor="7490599" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ipAZf0nDEeiuv6VtVNhzdQ" x="335" y="355" width="80" height="23"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_pJnKQEnEEeiuv6VtVNhzdQ" type="2002" element="_pJBUYEnEEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_pJnKQ0nEEeiuv6VtVNhzdQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_pJnKREnEEeiuv6VtVNhzdQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_tq-coEnEEeiuv6VtVNhzdQ" type="3008" element="_tqYmwEnEEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_tq-co0nEEeiuv6VtVNhzdQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_trINoEnEEeiuv6VtVNhzdQ" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_vtJvwEnEEeiuv6VtVNhzdQ" type="3007" element="_vsj54EnEEeiuv6VtVNhzdQ">
+                  <children xmi:type="notation:Node" xmi:id="_vtJvw0nEEeiuv6VtVNhzdQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_vtTgwEnEEeiuv6VtVNhzdQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_vtTgwUnEEeiuv6VtVNhzdQ" type="3003" element="_vsj54UnEEeiuv6VtVNhzdQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_vtTgwknEEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtTgw0nEEeiuv6VtVNhzdQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_vtJvwUnEEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtJvwknEEeiuv6VtVNhzdQ" x="31" y="14" width="111" height="27"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_zMBDUEnEEeiuv6VtVNhzdQ" type="3007" element="_zLbNcEnEEeiuv6VtVNhzdQ">
+                  <children xmi:type="notation:Node" xmi:id="_zMBDU0nEEeiuv6VtVNhzdQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_zMBDVEnEEeiuv6VtVNhzdQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_zMBDVUnEEeiuv6VtVNhzdQ" type="3003" element="_zLbNcUnEEeiuv6VtVNhzdQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_zMBDVknEEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zMBDV0nEEeiuv6VtVNhzdQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_zMBDUUnEEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zMBDUknEEeiuv6VtVNhzdQ" x="31" y="35" width="104" height="30"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_5ghuUEnEEeiuv6VtVNhzdQ" type="3007" element="_5fyHcEnEEeiuv6VtVNhzdQ">
+                  <children xmi:type="notation:Node" xmi:id="_5ghuU0nEEeiuv6VtVNhzdQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_5ghuVEnEEeiuv6VtVNhzdQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_5ghuVUnEEeiuv6VtVNhzdQ" type="3003" element="_5fyHcUnEEeiuv6VtVNhzdQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_5ghuVknEEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ghuV0nEEeiuv6VtVNhzdQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_5ghuUUnEEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5ghuUknEEeiuv6VtVNhzdQ" x="37" y="60" width="92" height="20"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_trINoUnEEeiuv6VtVNhzdQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_trINoknEEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_tq-coUnEEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tq-coknEEeiuv6VtVNhzdQ" x="6" y="18" width="151" height="106"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="__oZrgEnEEeiuv6VtVNhzdQ" type="3007" element="__n8_kEnEEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="__oZrg0nEEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="__oZrhEnEEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="__oZrhUnEEeiuv6VtVNhzdQ" type="3003" element="__n8_kUnEEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="__oZrhknEEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="__oZrh0nEEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="__oZrgUnEEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__oZrgknEEeiuv6VtVNhzdQ" x="23" y="102" width="114" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Hfs-8EnFEeiuv6VtVNhzdQ" type="3008" element="_HfGiAEnFEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_Hfs-80nFEeiuv6VtVNhzdQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_Hfs-9EnFEeiuv6VtVNhzdQ" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_Hfs-9UnFEeiuv6VtVNhzdQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_Hfs-9knFEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Hfs-8UnFEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hfs-8knFEeiuv6VtVNhzdQ" x="161" y="23" width="75" height="26"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Hfs-90nFEeiuv6VtVNhzdQ" type="3007" element="_HfjN8EnFEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_Hfs--knFEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Hfs--0nFEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_Hf2I4EnFEeiuv6VtVNhzdQ" type="3003" element="_HfjN8UnFEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_Hf2I4UnFEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hf2I4knFEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Hfs--EnFEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hfs--UnFEeiuv6VtVNhzdQ" x="181" y="48" width="67" height="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Hfs-_EnFEeiuv6VtVNhzdQ" type="3007" element="_HfjN8knFEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_Hfs-_0nFEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Hfs_AEnFEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_Hf2I40nFEeiuv6VtVNhzdQ" type="3003" element="_HfjN80nFEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_Hf2I5EnFEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hf2I5UnFEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Hfs-_UnFEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hfs-_knFEeiuv6VtVNhzdQ" x="184" y="68" width="80" height="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Hfs_AUnFEeiuv6VtVNhzdQ" type="3007" element="_HfjN9EnFEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_Hfs_BEnFEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Hfs_BUnFEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_Hf2I5knFEeiuv6VtVNhzdQ" type="3003" element="_HfjN9UnFEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_Hf2I50nFEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hf2I6EnFEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_Hfs_AknFEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hfs_A0nFEeiuv6VtVNhzdQ" x="189" y="87" width="91" height="21"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_pJnKRUnEEeiuv6VtVNhzdQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_pJnKRknEEeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_pJnKQUnEEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pJnKQknEEeiuv6VtVNhzdQ" x="912" y="73" width="301"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_zRuNQEnFEeiuv6VtVNhzdQ" type="2002" element="_zRkcQEnFEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_zRuNQ0nFEeiuv6VtVNhzdQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_zRuNREnFEeiuv6VtVNhzdQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_CB-8kEnGEeiuv6VtVNhzdQ" type="3008" element="_CB1LkEnGEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_CCItkEnGEeiuv6VtVNhzdQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_CCItkUnGEeiuv6VtVNhzdQ" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_D0FzYEnGEeiuv6VtVNhzdQ" type="3007" element="_Dzy4cEnGEeiuv6VtVNhzdQ">
+                  <children xmi:type="notation:Node" xmi:id="_D0FzY0nGEeiuv6VtVNhzdQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_D0FzZEnGEeiuv6VtVNhzdQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_D0FzZUnGEeiuv6VtVNhzdQ" type="3003" element="_Dzy4cUnGEeiuv6VtVNhzdQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_D0FzZknGEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D0FzZ0nGEeiuv6VtVNhzdQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_D0FzYUnGEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D0FzYknGEeiuv6VtVNhzdQ" x="24" y="17" width="127" height="20"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_Iu5ggEnGEeiuv6VtVNhzdQ" type="3007" element="_IumlkEnGEeiuv6VtVNhzdQ">
+                  <children xmi:type="notation:Node" xmi:id="_Iu5gg0nGEeiuv6VtVNhzdQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_Iu5ghEnGEeiuv6VtVNhzdQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_Iu5ghUnGEeiuv6VtVNhzdQ" type="3003" element="_IumlkUnGEeiuv6VtVNhzdQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_Iu5ghknGEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Iu5gh0nGEeiuv6VtVNhzdQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_Iu5ggUnGEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Iu5ggknGEeiuv6VtVNhzdQ" x="29" y="35" width="101" height="22"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_JrvjQEnGEeiuv6VtVNhzdQ" type="3007" element="_JrcoUEnGEeiuv6VtVNhzdQ">
+                  <children xmi:type="notation:Node" xmi:id="_JrvjQ0nGEeiuv6VtVNhzdQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_JrvjREnGEeiuv6VtVNhzdQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_JrvjRUnGEeiuv6VtVNhzdQ" type="3003" element="_JrcoUUnGEeiuv6VtVNhzdQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_JrvjRknGEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JrvjR0nGEeiuv6VtVNhzdQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_JrvjQUnGEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JrvjQknGEeiuv6VtVNhzdQ" x="14" y="55" width="125" height="20"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_CCItkknGEeiuv6VtVNhzdQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_CCItk0nGEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_CB-8kUnGEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CB-8kknGEeiuv6VtVNhzdQ" x="4" y="18" width="161" height="85"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S0kwAEnGEeiuv6VtVNhzdQ" type="3007" element="_S0a_AEnGEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_S0kwA0nGEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_S0kwBEnGEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_S0kwBUnGEeiuv6VtVNhzdQ" type="3003" element="_S0a_AUnGEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_S0kwBknGEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S0kwB0nGEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S0kwAUnGEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S0kwAknGEeiuv6VtVNhzdQ" x="26" y="100" width="111" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_lykECEnGEeiuv6VtVNhzdQ" type="3008" element="_lykEAEnGEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_lykEC0nGEeiuv6VtVNhzdQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_lykEDEnGEeiuv6VtVNhzdQ" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_lykEDUnGEeiuv6VtVNhzdQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_lykEDknGEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_lykECUnGEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lykECknGEeiuv6VtVNhzdQ" x="159" y="20" width="66" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_lykED0nGEeiuv6VtVNhzdQ" type="3007" element="_lykEAknGEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_lykEEknGEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_lykEE0nGEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_lykEHknGEeiuv6VtVNhzdQ" type="3003" element="_lykEA0nGEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_lykEH0nGEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lykEIEnGEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_lykEEEnGEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lykEEUnGEeiuv6VtVNhzdQ" x="169" y="40" width="59" height="25"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_lykEFEnGEeiuv6VtVNhzdQ" type="3007" element="_lykEBEnGEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_lykEF0nGEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_lykEGEnGEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_lykEIUnGEeiuv6VtVNhzdQ" type="3003" element="_lykEBUnGEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_lykEIknGEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lykEI0nGEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_lykEFUnGEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lykEFknGEeiuv6VtVNhzdQ" x="174" y="59" width="73" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_lykEGUnGEeiuv6VtVNhzdQ" type="3007" element="_lykEBknGEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_lykEHEnGEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_lykEHUnGEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_lykEJEnGEeiuv6VtVNhzdQ" type="3003" element="_lykEB0nGEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_lykEJUnGEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lykEJknGEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_lykEGknGEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lykEG0nGEeiuv6VtVNhzdQ" x="169" y="83" width="98" height="20"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_zRuNRUnFEeiuv6VtVNhzdQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_zRuNRknFEeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_zRuNQUnFEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zRuNQknFEeiuv6VtVNhzdQ" x="927" y="330" width="286"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_OWhyAkmzEeiuv6VtVNhzdQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_0NAf-Em8Eeiuv6VtVNhzdQ" type="4001" element="_0Mtk8Em8Eeiuv6VtVNhzdQ" source="_Lo4J4Em8Eeiuv6VtVNhzdQ" target="_WySHQEm8Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_0NAf_Em8Eeiuv6VtVNhzdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0NAf_Um8Eeiuv6VtVNhzdQ" x="1" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_0NAf_km8Eeiuv6VtVNhzdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0NAf_0m8Eeiuv6VtVNhzdQ" x="-1" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_0NAgAEm8Eeiuv6VtVNhzdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0NAgAUm8Eeiuv6VtVNhzdQ" y="13"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_0NAf-Um8Eeiuv6VtVNhzdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_0NAf-km8Eeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0NAf-0m8Eeiuv6VtVNhzdQ" points="[-7, 2, 0, -82]$[-7, 84, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0NKQ4Em8Eeiuv6VtVNhzdQ" id="(0.5034965034965035,0.9714285714285714)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0NKQ4Um8Eeiuv6VtVNhzdQ" id="(0.44680851063829785,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_J5CHkEm9Eeiuv6VtVNhzdQ" type="4001" element="_J4vMgEm9Eeiuv6VtVNhzdQ" source="_WySHQEm8Eeiuv6VtVNhzdQ" target="_kFHPQEm8Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_J5CHlEm9Eeiuv6VtVNhzdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J5CHlUm9Eeiuv6VtVNhzdQ" x="-6" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_J5CHlkm9Eeiuv6VtVNhzdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J5CHl0m9Eeiuv6VtVNhzdQ" x="-9" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_J5CHmEm9Eeiuv6VtVNhzdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J5CHmUm9Eeiuv6VtVNhzdQ" x="-4" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_J5CHkUm9Eeiuv6VtVNhzdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_J5CHkkm9Eeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_J5CHk0m9Eeiuv6VtVNhzdQ" points="[0, 0, -169, -165]$[165, 162, -4, -3]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J5CHmkm9Eeiuv6VtVNhzdQ" id="(0.6453900709219859,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J5CHm0m9Eeiuv6VtVNhzdQ" id="(0.10635025269171612,0.05714285714285714)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ydTAbUm9Eeiuv6VtVNhzdQ" type="4001" element="_yc2UYEm9Eeiuv6VtVNhzdQ" source="_WySHQEm8Eeiuv6VtVNhzdQ" target="_egNcQEm8Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_ydTAcUm9Eeiuv6VtVNhzdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydTAckm9Eeiuv6VtVNhzdQ" x="-1" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ydTAc0m9Eeiuv6VtVNhzdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydTAdEm9Eeiuv6VtVNhzdQ" x="1" y="17"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ydTAdUm9Eeiuv6VtVNhzdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydTAdkm9Eeiuv6VtVNhzdQ" y="20"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ydTAbkm9Eeiuv6VtVNhzdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ydTAb0m9Eeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ydTAcEm9Eeiuv6VtVNhzdQ" points="[-6, 6, 131, -154]$[-135, 158, 2, -2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ydTAd0m9Eeiuv6VtVNhzdQ" id="(0.3146853146853147,0.9142857142857143)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ydTAeEm9Eeiuv6VtVNhzdQ" id="(0.8513513513513513,0.04)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_3HE1pUnCEeiuv6VtVNhzdQ" type="4001" element="_3GoJoEnCEeiuv6VtVNhzdQ" source="_kFHPQEm8Eeiuv6VtVNhzdQ" target="_WySHQEm8Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_3HE1qUnCEeiuv6VtVNhzdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3HE1qknCEeiuv6VtVNhzdQ" x="32" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3HE1q0nCEeiuv6VtVNhzdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3HE1rEnCEeiuv6VtVNhzdQ" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3HE1rUnCEeiuv6VtVNhzdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3HE1rknCEeiuv6VtVNhzdQ" x="-100" y="-9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_3HE1pknCEeiuv6VtVNhzdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_3HE1p0nCEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3HE1qEnCEeiuv6VtVNhzdQ" points="[0, -2, 153, 205]$[0, -199, 153, 8]$[-15, -199, 138, 8]$[-144, -207, 9, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3HE1r0nCEeiuv6VtVNhzdQ" id="(0.17281916062403868,0.04285714285714286)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3HE1sEnCEeiuv6VtVNhzdQ" id="(0.8297872340425532,0.36764705882352944)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ipAZi0nDEeiuv6VtVNhzdQ" type="4001" element="_io2ocEnDEeiuv6VtVNhzdQ" source="_egNcQEm8Eeiuv6VtVNhzdQ" target="_WySHQEm8Eeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_ipAZj0nDEeiuv6VtVNhzdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ipAZkEnDEeiuv6VtVNhzdQ" x="13" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ipAZkUnDEeiuv6VtVNhzdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ipAZkknDEeiuv6VtVNhzdQ" x="-9" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ipAZk0nDEeiuv6VtVNhzdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ipAZlEnDEeiuv6VtVNhzdQ" x="-15" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ipAZjEnDEeiuv6VtVNhzdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ipAZjUnDEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ipAZjknDEeiuv6VtVNhzdQ" points="[-2, -1, -121, 196]$[-2, -188, -121, 9]$[113, -188, -6, 9]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ipAZlUnDEeiuv6VtVNhzdQ" id="(0.7162162162162162,0.02666666666666667)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ipAZlknDEeiuv6VtVNhzdQ" id="(0.049519864432310295,0.35714285714285715)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_nT0Q0knFEeiuv6VtVNhzdQ" type="4001" element="_nTqf0EnFEeiuv6VtVNhzdQ" source="_WySHQEm8Eeiuv6VtVNhzdQ" target="_pJnKQEnEEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_nT0Q1knFEeiuv6VtVNhzdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nT0Q10nFEeiuv6VtVNhzdQ" x="-36" y="-12"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nT0Q2EnFEeiuv6VtVNhzdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nT0Q2UnFEeiuv6VtVNhzdQ" x="-10" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_nT0Q2knFEeiuv6VtVNhzdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nT0Q20nFEeiuv6VtVNhzdQ" x="-52" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_nT0Q00nFEeiuv6VtVNhzdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_nT0Q1EnFEeiuv6VtVNhzdQ" fontName="黑体" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nT0Q1UnFEeiuv6VtVNhzdQ" points="[4, -1, -271, 88]$[270, -85, -5, 4]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nT0Q3EnFEeiuv6VtVNhzdQ" id="(0.8656914893617021,0.12857142857142856)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nT0Q3UnFEeiuv6VtVNhzdQ" id="(0.016611295681063124,0.1111111111111111)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_9dirkEnGEeiuv6VtVNhzdQ" type="4001" element="_9dZhoEnGEeiuv6VtVNhzdQ" source="_kFHPQEm8Eeiuv6VtVNhzdQ" target="_zRuNQEnFEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_9dirlEnGEeiuv6VtVNhzdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9dirlUnGEeiuv6VtVNhzdQ" x="4" y="-12"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_9dirlknGEeiuv6VtVNhzdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9dirl0nGEeiuv6VtVNhzdQ" x="-13" y="-4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_9dirmEnGEeiuv6VtVNhzdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9dirmUnGEeiuv6VtVNhzdQ" x="-12" y="-2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_9dirkUnGEeiuv6VtVNhzdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_9dirkknGEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9dirk0nGEeiuv6VtVNhzdQ" points="[10, -3, -101, 37]$[108, -41, -3, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9dirmknGEeiuv6VtVNhzdQ" id="(0.3655789936277741,0.05714285714285714)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9dirm0nGEeiuv6VtVNhzdQ" id="(0.01048951048951049,0.22916666666666666)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_85D78Em6Eeiuv6VtVNhzdQ" name="21.0" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:Variable" href="TemperatureController.cpsml#//@ownedvariables.0"/>
+      <semanticElements xmi:type="cpsml:Variable" href="TemperatureController.cpsml#//@ownedvariables.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_85EjAEm6Eeiuv6VtVNhzdQ" labelSize="14" labelPosition="node" color="255,255,255">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Variable']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Variable']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_LolO8Em8Eeiuv6VtVNhzdQ" name="Initial" outgoingEdges="_0Mtk8Em8Eeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.0"/>
+      <semanticElements xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_LolO8Um8Eeiuv6VtVNhzdQ" labelSize="14" showIcon="false" borderSize="3" borderSizeComputationExpression="1" backgroundColor="194,239,255">
+        <customFeatures>labelSize</customFeatures>
+        <customFeatures>borderSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_WyIWQEm8Eeiuv6VtVNhzdQ" name="OFF         Heating" outgoingEdges="_J4vMgEm9Eeiuv6VtVNhzdQ _yc2UYEm9Eeiuv6VtVNhzdQ _nTqf0EnFEeiuv6VtVNhzdQ" incomingEdges="_0Mtk8Em8Eeiuv6VtVNhzdQ _3GoJoEnCEeiuv6VtVNhzdQ _io2ocEnDEeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.1"/>
+      <semanticElements xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_WyIWQUm8Eeiuv6VtVNhzdQ" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="194,239,255">
+        <customFeatures>labelSize</customFeatures>
+        <customFeatures>labelAlignment</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_egDrQEm8Eeiuv6VtVNhzdQ" name="ON                 Air Conditioner" outgoingEdges="_io2ocEnDEeiuv6VtVNhzdQ" incomingEdges="_yc2UYEm9Eeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.2"/>
+      <semanticElements xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_egDrQUm8Eeiuv6VtVNhzdQ" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="194,239,255">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_kE-FUEm8Eeiuv6VtVNhzdQ" name="ON               Electrtic Fan" outgoingEdges="_3GoJoEnCEeiuv6VtVNhzdQ _9dZhoEnGEeiuv6VtVNhzdQ" incomingEdges="_J4vMgEm9Eeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.3"/>
+      <semanticElements xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_kE-FUUm8Eeiuv6VtVNhzdQ" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="194,239,255">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='State']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='State']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_0Mtk8Em8Eeiuv6VtVNhzdQ" sourceNode="_LolO8Em8Eeiuv6VtVNhzdQ" targetNode="_WyIWQEm8Eeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.0"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_0Mtk8Um8Eeiuv6VtVNhzdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ComTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_0Mtk8km8Eeiuv6VtVNhzdQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ComTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_0M2u4Em8Eeiuv6VtVNhzdQ" name="y&lt;32" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.0"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_0M2u4Um8Eeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/guard.png" labelColor="77,137,20" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Guard']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Guard']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_J44WcEm9Eeiuv6VtVNhzdQ" name="y>32" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.1"/>
+      <semanticElements xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_J44WcUm9Eeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/guard.png" labelColor="77,137,20" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Guard']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Guard']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ydAFYEm9Eeiuv6VtVNhzdQ" name="y>32" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.2"/>
+      <semanticElements xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_ydAFYUm9Eeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/guard.png" labelColor="77,137,20" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Guard']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Guard']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_3Gx6oEnCEeiuv6VtVNhzdQ" name="y&lt;21" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.3"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_3Gx6oUnCEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/guard.png" labelColor="77,137,20" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Guard']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Guard']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_io2oc0nDEeiuv6VtVNhzdQ" name="y&lt;21" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.4"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.4"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_io2odEnDEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/guard.png" labelColor="77,137,20" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Guard']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Guard']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_0M2u4km8Eeiuv6VtVNhzdQ" name="Initial_to_Heating" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.0"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_0M2u40m8Eeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/action.png" labelColor="114,159,207" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Action']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Action']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_J44Wckm9Eeiuv6VtVNhzdQ" name="Heating_to_Electric Fan" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.1"/>
+      <semanticElements xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_J44Wc0m9Eeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/action.png" labelColor="114,159,207" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Action']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Action']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ydAFYkm9Eeiuv6VtVNhzdQ" name="Heating_to_Air Conditioner" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.2"/>
+      <semanticElements xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_ydAFY0m9Eeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/action.png" labelColor="114,159,207" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Action']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Action']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_3Gx6oknCEeiuv6VtVNhzdQ" name="Electric Fan_to_Heating" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.3"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_3Gx6o0nCEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/action.png" labelColor="114,159,207" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Action']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Action']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_io2odUnDEeiuv6VtVNhzdQ" name="Air Conditioner_to_Heating" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.4"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.4"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_ipAZcEnDEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/action.png" labelColor="114,159,207" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Action']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Action']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_0M2u5Em8Eeiuv6VtVNhzdQ" name="heat" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.0"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_0M2u5Um8Eeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/event.png" labelColor="39,76,114" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Event']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Event']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_J44Wdkm9Eeiuv6VtVNhzdQ" name="cool" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.1"/>
+      <semanticElements xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_J44Wd0m9Eeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/event.png" labelColor="39,76,114" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Event']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Event']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ydJPUkm9Eeiuv6VtVNhzdQ" name="cool" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.2"/>
+      <semanticElements xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_ydJPU0m9Eeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/event.png" labelColor="39,76,114" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Event']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Event']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_3Gx6pEnCEeiuv6VtVNhzdQ" name="off" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.3"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_3Gx6pUnCEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/event.png" labelColor="39,76,114" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Event']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Event']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ipAZcUnDEeiuv6VtVNhzdQ" name="off" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.4"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.4"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_ipAZcknDEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/event.png" labelColor="39,76,114" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Event']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Event']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_J4vMgEm9Eeiuv6VtVNhzdQ" sourceNode="_WyIWQEm8Eeiuv6VtVNhzdQ" targetNode="_kE-FUEm8Eeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.1"/>
+      <semanticElements xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_J4vMgUm9Eeiuv6VtVNhzdQ" lineStyle="dash" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ProbTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_J4vMgkm9Eeiuv6VtVNhzdQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ProbTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_J44WdEm9Eeiuv6VtVNhzdQ" name="0.4" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.1"/>
+      <semanticElements xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_J44WdUm9Eeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/prob.png" labelColor="239,41,41" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Probability']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Probability']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ydJPUEm9Eeiuv6VtVNhzdQ" name="0.6" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.2"/>
+      <semanticElements xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_ydJPUUm9Eeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/prob.png" labelColor="239,41,41" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Probability']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Probability']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_yc2UYEm9Eeiuv6VtVNhzdQ" sourceNode="_WyIWQEm8Eeiuv6VtVNhzdQ" targetNode="_egDrQEm8Eeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.2"/>
+      <semanticElements xmi:type="cpsml:ProbTransition" href="TemperatureController.cpsml#//@ownedTransitions.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_yc2UYUm9Eeiuv6VtVNhzdQ" lineStyle="dash" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ProbTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_yc2UYkm9Eeiuv6VtVNhzdQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ProbTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_3GoJoEnCEeiuv6VtVNhzdQ" sourceNode="_kE-FUEm8Eeiuv6VtVNhzdQ" targetNode="_WyIWQEm8Eeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.3"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_3GoJoUnCEeiuv6VtVNhzdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ComTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_3GoJoknCEeiuv6VtVNhzdQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ComTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_io2ocEnDEeiuv6VtVNhzdQ" sourceNode="_egDrQEm8Eeiuv6VtVNhzdQ" targetNode="_WyIWQEm8Eeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.4"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedTransitions.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_io2ocUnDEeiuv6VtVNhzdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ComTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_io2ocknDEeiuv6VtVNhzdQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ComTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_pJBUYEnEEeiuv6VtVNhzdQ" name="HeatingODE: y'=0.017*y-0.1" incomingEdges="_nTqf0EnFEeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:ODE" href="TemperatureController.cpsml#//@ownedodes.0"/>
+      <semanticElements xmi:type="cpsml:ODE" href="TemperatureController.cpsml#//@ownedodes.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_pJBUYUnEEeiuv6VtVNhzdQ" showIcon="false" workspacePath="/org.dsml.cpsml.design/icons/zhushi-smalll.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_tqYmwEnEEeiuv6VtVNhzdQ" name="f1">
+        <target xmi:type="cpsml:Function" href="TemperatureController.cpsml#//@ownedodes.0/@function"/>
+        <semanticElements xmi:type="cpsml:Function" href="TemperatureController.cpsml#//@ownedodes.0/@function"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_tqYmwUnEEeiuv6VtVNhzdQ" workspacePath="/org.dsml.cpsml.design/icons/Function.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_vsj54EnEEeiuv6VtVNhzdQ" name="0.017*y-0.1" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="cpsml:Fright" href="TemperatureController.cpsml#//@ownedodes.0/@function/@fright"/>
+          <semanticElements xmi:type="cpsml:Fright" href="TemperatureController.cpsml#//@ownedodes.0/@function/@fright"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_vsj54UnEEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@subNodeMappings[name='Fright']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@subNodeMappings[name='Fright']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_zLbNcEnEEeiuv6VtVNhzdQ" name="t" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="cpsml:IndeVariable" href="TemperatureController.cpsml#//@ownedodes.0/@function/@indevariable"/>
+          <semanticElements xmi:type="cpsml:IndeVariable" href="TemperatureController.cpsml#//@ownedodes.0/@function/@indevariable"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_zLbNcUnEEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@subNodeMappings[name='IndeVariable']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@subNodeMappings[name='IndeVariable']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_5fyHcEnEEeiuv6VtVNhzdQ" name="y" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="cpsml:DeVariable" href="TemperatureController.cpsml#//@ownedodes.0/@function/@devariable"/>
+          <semanticElements xmi:type="cpsml:DeVariable" href="TemperatureController.cpsml#//@ownedodes.0/@function/@devariable"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_5fyHcUnEEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@subNodeMappings[name='Devariable']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@subNodeMappings[name='Devariable']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="__n8_kEnEEeiuv6VtVNhzdQ" name="y0=21" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Condition" href="TemperatureController.cpsml#//@ownedodes.0/@condition"/>
+        <semanticElements xmi:type="cpsml:Condition" href="TemperatureController.cpsml#//@ownedodes.0/@condition"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="__n8_kUnEEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <customFeatures>labelFormat</customFeatures>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Condition']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Condition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_HfGiAEnFEeiuv6VtVNhzdQ">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.0/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.0/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_HfGiAUnFEeiuv6VtVNhzdQ" workspacePath="/org.dsml.cpsml.design/icons/Function.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Interval']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Interval']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_HfjN8EnFEeiuv6VtVNhzdQ" name="0.0" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.0/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.0/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_HfjN8UnFEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/left.png" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Intervalleft']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Intervalleft']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_HfjN8knFEeiuv6VtVNhzdQ" name="120.0" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.0/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.0/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_HfjN80nFEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/right.png" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Intervalright']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Intervalright']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_HfjN9EnFEeiuv6VtVNhzdQ" name="0.1" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.0/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.0/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_HfjN9UnFEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/subinterval.png" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Subinterval']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Subinterval']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_nTqf0EnFEeiuv6VtVNhzdQ" sourceNode="_WyIWQEm8Eeiuv6VtVNhzdQ" targetNode="_pJBUYEnEEeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_nT0Q0EnFEeiuv6VtVNhzdQ" lineStyle="dash" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ODE%20Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_nT0Q0UnFEeiuv6VtVNhzdQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ODE%20Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_zRkcQEnFEeiuv6VtVNhzdQ" name="Electric Fan ODE: y'=-0.024*y-0.1" incomingEdges="_9dZhoEnGEeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:ODE" href="TemperatureController.cpsml#//@ownedodes.1"/>
+      <semanticElements xmi:type="cpsml:ODE" href="TemperatureController.cpsml#//@ownedodes.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_zRkcQUnFEeiuv6VtVNhzdQ" showIcon="false" workspacePath="/org.dsml.cpsml.design/icons/zhushi-smalll.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_CB1LkEnGEeiuv6VtVNhzdQ" name="f2">
+        <target xmi:type="cpsml:Function" href="TemperatureController.cpsml#//@ownedodes.1/@function"/>
+        <semanticElements xmi:type="cpsml:Function" href="TemperatureController.cpsml#//@ownedodes.1/@function"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_CB1LkUnGEeiuv6VtVNhzdQ" workspacePath="/org.dsml.cpsml.design/icons/Function.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Dzy4cEnGEeiuv6VtVNhzdQ" name="-0.024*y-0.1" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="cpsml:Fright" href="TemperatureController.cpsml#//@ownedodes.1/@function/@fright"/>
+          <semanticElements xmi:type="cpsml:Fright" href="TemperatureController.cpsml#//@ownedodes.1/@function/@fright"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Dzy4cUnGEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@subNodeMappings[name='Fright']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@subNodeMappings[name='Fright']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_IumlkEnGEeiuv6VtVNhzdQ" name="t" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="cpsml:IndeVariable" href="TemperatureController.cpsml#//@ownedodes.1/@function/@indevariable"/>
+          <semanticElements xmi:type="cpsml:IndeVariable" href="TemperatureController.cpsml#//@ownedodes.1/@function/@indevariable"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_IumlkUnGEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@subNodeMappings[name='IndeVariable']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@subNodeMappings[name='IndeVariable']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_JrcoUEnGEeiuv6VtVNhzdQ" name="y" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="cpsml:DeVariable" href="TemperatureController.cpsml#//@ownedodes.1/@function/@devariable"/>
+          <semanticElements xmi:type="cpsml:DeVariable" href="TemperatureController.cpsml#//@ownedodes.1/@function/@devariable"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_JrcoUUnGEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@subNodeMappings[name='Devariable']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@subNodeMappings[name='Devariable']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_S0a_AEnGEeiuv6VtVNhzdQ" name="y0=32" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Condition" href="TemperatureController.cpsml#//@ownedodes.1/@condition"/>
+        <semanticElements xmi:type="cpsml:Condition" href="TemperatureController.cpsml#//@ownedodes.1/@condition"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_S0a_AUnGEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <customFeatures>labelFormat</customFeatures>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Condition']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Condition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_lykEAEnGEeiuv6VtVNhzdQ">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.1/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.1/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_lykEAUnGEeiuv6VtVNhzdQ" workspacePath="/org.dsml.cpsml.design/icons/Function.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Interval']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Interval']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_lykEAknGEeiuv6VtVNhzdQ" name="0.0" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.1/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.1/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_lykEA0nGEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/left.png" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Intervalleft']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Intervalleft']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_lykEBEnGEeiuv6VtVNhzdQ" name="120.0" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.1/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.1/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_lykEBUnGEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/right.png" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Intervalright']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Intervalright']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_lykEBknGEeiuv6VtVNhzdQ" name="0.1" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.1/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedodes.1/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_lykEB0nGEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/subinterval.png" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Subinterval']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Subinterval']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_9dZhoEnGEeiuv6VtVNhzdQ" sourceNode="_kE-FUEm8Eeiuv6VtVNhzdQ" targetNode="_zRkcQEnFEeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_9dZhoUnGEeiuv6VtVNhzdQ" lineStyle="dash" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ODE%20Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_9dZhoknGEeiuv6VtVNhzdQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ODE%20Edge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_OWYoFEmzEeiuv6VtVNhzdQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer"/>
+    <target xmi:type="cpsml:System" href="TemperatureController.cpsml#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_jb55MUnHEeiuv6VtVNhzdQ" name="Information of  Air Conditioner">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_jb55MknHEeiuv6VtVNhzdQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_jb55M0nHEeiuv6VtVNhzdQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_jb55NUnHEeiuv6VtVNhzdQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_jb55NknHEeiuv6VtVNhzdQ" type="Sirius" element="_jb55MUnHEeiuv6VtVNhzdQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_kJR8kEnHEeiuv6VtVNhzdQ" type="2002" element="_kIiVsEnHEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_kJR8k0nHEeiuv6VtVNhzdQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_kJR8lEnHEeiuv6VtVNhzdQ" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_kJR8lUnHEeiuv6VtVNhzdQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_kJR8lknHEeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_kJR8kUnHEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="14"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kJR8kknHEeiuv6VtVNhzdQ" x="330" y="140" width="125"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_kjd-MEnHEeiuv6VtVNhzdQ" type="2002" element="_kjLDQEnHEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_kjd-M0nHEeiuv6VtVNhzdQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_kjd-NEnHEeiuv6VtVNhzdQ" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_kjd-NUnHEeiuv6VtVNhzdQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_kjd-NknHEeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_kjd-MUnHEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="14"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kjd-MknHEeiuv6VtVNhzdQ" x="729" y="140" width="120"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_usRaNknHEeiuv6VtVNhzdQ" type="2001" element="_usRaMEnHEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_usRaOUnHEeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_usRaOknHEeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_usRaRUnHEeiuv6VtVNhzdQ" type="3003" element="_usRaMUnHEeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_usRaRknHEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_usRaR0nHEeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_usRaN0nHEeiuv6VtVNhzdQ" fontColor="1345869" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_usRaOEnHEeiuv6VtVNhzdQ" x="550" y="135" width="76" height="21"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_usRaO0nHEeiuv6VtVNhzdQ" type="2001" element="_usRaMknHEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_usRaPknHEeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_usRaP0nHEeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_usRaSEnHEeiuv6VtVNhzdQ" type="3016" element="_usRaM0nHEeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_usRaSUnHEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_usRaSknHEeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_usRaPEnHEeiuv6VtVNhzdQ" fontColor="13606770" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_usRaPUnHEeiuv6VtVNhzdQ" x="555" y="115" width="126" height="21"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_usRaQEnHEeiuv6VtVNhzdQ" type="2001" element="_usRaNEnHEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_usRaQ0nHEeiuv6VtVNhzdQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_usRaREnHEeiuv6VtVNhzdQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_usRaS0nHEeiuv6VtVNhzdQ" type="3003" element="_usRaNUnHEeiuv6VtVNhzdQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_usRaTEnHEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_usRaTUnHEeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_usRaQUnHEeiuv6VtVNhzdQ" fontColor="7490599" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_usRaQknHEeiuv6VtVNhzdQ" x="545" y="155" width="111" height="26"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_JTuZ8EnIEeiuv6VtVNhzdQ" type="2002" element="_JS1CEEnIEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_JTuZ80nIEeiuv6VtVNhzdQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_JTuZ9EnIEeiuv6VtVNhzdQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_PSEnsEnIEeiuv6VtVNhzdQ" type="3008" element="_PRex0EnIEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_PSEns0nIEeiuv6VtVNhzdQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_PSEntEnIEeiuv6VtVNhzdQ" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_VeQdIEnIEeiuv6VtVNhzdQ" type="3007" element="_Vdg2QEnIEeiuv6VtVNhzdQ">
+                  <children xmi:type="notation:Node" xmi:id="_VeQdI0nIEeiuv6VtVNhzdQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_VeQdJEnIEeiuv6VtVNhzdQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_VeQdJUnIEeiuv6VtVNhzdQ" type="3003" element="_Vdg2QUnIEeiuv6VtVNhzdQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_VeQdJknIEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VeQdJ0nIEeiuv6VtVNhzdQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_VeQdIUnIEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VeQdIknIEeiuv6VtVNhzdQ" x="26" y="15" width="106" height="21"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_dRP4UEnIEeiuv6VtVNhzdQ" type="3007" element="_dQWgcEnIEeiuv6VtVNhzdQ">
+                  <children xmi:type="notation:Node" xmi:id="_dRP4U0nIEeiuv6VtVNhzdQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_dRP4VEnIEeiuv6VtVNhzdQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_dRP4VUnIEeiuv6VtVNhzdQ" type="3003" element="_dQWgcUnIEeiuv6VtVNhzdQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_dRP4VknIEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dRP4V0nIEeiuv6VtVNhzdQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_dRP4UUnIEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dRP4UknIEeiuv6VtVNhzdQ" x="22" y="33" width="96" height="25"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_fK790EnIEeiuv6VtVNhzdQ" type="3007" element="_fKDNAEnIEeiuv6VtVNhzdQ">
+                  <children xmi:type="notation:Node" xmi:id="_fK7900nIEeiuv6VtVNhzdQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_fK791EnIEeiuv6VtVNhzdQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_fK791UnIEeiuv6VtVNhzdQ" type="3003" element="_fKDNAUnIEeiuv6VtVNhzdQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_fK791knIEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fK7910nIEeiuv6VtVNhzdQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_fK790UnIEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fK790knIEeiuv6VtVNhzdQ" x="27" y="55" width="86" height="19"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_PSEntUnIEeiuv6VtVNhzdQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_PSEntknIEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_PSEnsUnIEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PSEnsknIEeiuv6VtVNhzdQ" y="17" width="142" height="86"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_nIMIQEnIEeiuv6VtVNhzdQ" type="3007" element="_nHvcUEnIEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_nIMIQ0nIEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_nIMIREnIEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_nIMIRUnIEeiuv6VtVNhzdQ" type="3003" element="_nHvcUUnIEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_nIMIRknIEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nIMIR0nIEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_nIMIQUnIEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nIMIQknIEeiuv6VtVNhzdQ" x="6" y="100" width="121" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_riHV5knIEeiuv6VtVNhzdQ" type="3008" element="_rhOlEEnIEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_riHV6UnIEeiuv6VtVNhzdQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_riHV6knIEeiuv6VtVNhzdQ" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_riHV60nIEeiuv6VtVNhzdQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_riHV7EnIEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_riHV50nIEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_riHV6EnIEeiuv6VtVNhzdQ" x="141" y="20" width="61"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_riHV7UnIEeiuv6VtVNhzdQ" type="3007" element="_riHV4EnIEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_riHV8EnIEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_riHV8UnIEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_riHV_EnIEeiuv6VtVNhzdQ" type="3003" element="_riHV4UnIEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_riHV_UnIEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_riHV_knIEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_riHV7knIEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_riHV70nIEeiuv6VtVNhzdQ" x="156" y="45" width="61" height="20"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_riHV8knIEeiuv6VtVNhzdQ" type="3007" element="_riHV4knIEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_riHV9UnIEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_riHV9knIEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_riHV_0nIEeiuv6VtVNhzdQ" type="3003" element="_riHV40nIEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_riHWAEnIEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_riHWAUnIEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_riHV80nIEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_riHV9EnIEeiuv6VtVNhzdQ" x="151" y="60" width="90" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_riHV90nIEeiuv6VtVNhzdQ" type="3007" element="_riHV5EnIEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_riHV-knIEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_riHV-0nIEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_riHWAknIEeiuv6VtVNhzdQ" type="3003" element="_riHV5UnIEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_riHWA0nIEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_riHWBEnIEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_riHV-EnIEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_riHV-UnIEeiuv6VtVNhzdQ" x="161" y="80" width="95" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_JTuZ9UnIEeiuv6VtVNhzdQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_JTuZ9knIEeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_JTuZ8UnIEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTuZ8knIEeiuv6VtVNhzdQ" x="325" y="240"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_G2qFIEnJEeiuv6VtVNhzdQ" type="2002" element="_G2OAQEnJEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_G2qFI0nJEeiuv6VtVNhzdQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_G2qFJEnJEeiuv6VtVNhzdQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_b2-dQEnJEeiuv6VtVNhzdQ" type="3008" element="_b2riUEnJEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_b2-dQ0nJEeiuv6VtVNhzdQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_b2-dREnJEeiuv6VtVNhzdQ" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_ghkkIEnJEeiuv6VtVNhzdQ" type="3007" element="_ghRCIEnJEeiuv6VtVNhzdQ">
+                  <children xmi:type="notation:Node" xmi:id="_ghkkI0nJEeiuv6VtVNhzdQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_ghkkJEnJEeiuv6VtVNhzdQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_ghkkJUnJEeiuv6VtVNhzdQ" type="3003" element="_ghRCIUnJEeiuv6VtVNhzdQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_ghkkJknJEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ghkkJ0nJEeiuv6VtVNhzdQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_ghkkIUnJEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ghkkIknJEeiuv6VtVNhzdQ" x="27" y="15" width="107" height="25"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_pXNvIEnJEeiuv6VtVNhzdQ" type="3007" element="_pW60MEnJEeiuv6VtVNhzdQ">
+                  <children xmi:type="notation:Node" xmi:id="_pXNvI0nJEeiuv6VtVNhzdQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_pXNvJEnJEeiuv6VtVNhzdQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_pXNvJUnJEeiuv6VtVNhzdQ" type="3003" element="_pW60MUnJEeiuv6VtVNhzdQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_pXNvJknJEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pXNvJ0nJEeiuv6VtVNhzdQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_pXNvIUnJEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pXNvIknJEeiuv6VtVNhzdQ" x="27" y="35" width="96" height="25"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_ulEUEEnJEeiuv6VtVNhzdQ" type="3007" element="_ukxZIEnJEeiuv6VtVNhzdQ">
+                  <children xmi:type="notation:Node" xmi:id="_ulEUE0nJEeiuv6VtVNhzdQ" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_ulEUFEnJEeiuv6VtVNhzdQ" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_ulEUFUnJEeiuv6VtVNhzdQ" type="3003" element="_ukxZIUnJEeiuv6VtVNhzdQ">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_ulEUFknJEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ulEUF0nJEeiuv6VtVNhzdQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_ulEUEUnJEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ulEUEknJEeiuv6VtVNhzdQ" x="27" y="55" width="96" height="26"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_b2-dRUnJEeiuv6VtVNhzdQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_b2-dRknJEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_b2-dQUnJEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b2-dQknJEeiuv6VtVNhzdQ" x="5" y="15" width="143" height="91"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_6pWlUEnJEeiuv6VtVNhzdQ" type="3007" element="_6pM0UEnJEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_6pWlU0nJEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_6pWlVEnJEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_6pWlVUnJEeiuv6VtVNhzdQ" type="3003" element="_6pM0UUnJEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_6pWlVknJEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6pWlV0nJEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_6pWlUUnJEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6pWlUknJEeiuv6VtVNhzdQ" x="17" y="100" width="106" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_BEQzRknKEeiuv6VtVNhzdQ" type="3008" element="_BD94UEnKEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_BEQzSUnKEeiuv6VtVNhzdQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_BEQzSknKEeiuv6VtVNhzdQ" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_BEQzS0nKEeiuv6VtVNhzdQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_BEQzTEnKEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_BEQzR0nKEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BEQzSEnKEeiuv6VtVNhzdQ" x="147" y="15" width="51" height="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_BEQzTUnKEeiuv6VtVNhzdQ" type="3007" element="_BEQzQEnKEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_BEQzUEnKEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_BEQzUUnKEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_BEakQEnKEeiuv6VtVNhzdQ" type="3003" element="_BEQzQUnKEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_BEakQUnKEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BEakQknKEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_BEQzTknKEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BEQzT0nKEeiuv6VtVNhzdQ" x="152" y="45" width="66" height="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_BEQzUknKEeiuv6VtVNhzdQ" type="3007" element="_BEQzQknKEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_BEQzVUnKEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_BEQzVknKEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_BEakQ0nKEeiuv6VtVNhzdQ" type="3003" element="_BEQzQ0nKEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_BEakREnKEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BEakRUnKEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_BEQzU0nKEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BEQzVEnKEeiuv6VtVNhzdQ" x="156" y="65" width="79" height="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_BEQzV0nKEeiuv6VtVNhzdQ" type="3007" element="_BEQzREnKEeiuv6VtVNhzdQ">
+              <children xmi:type="notation:Node" xmi:id="_BEQzWknKEeiuv6VtVNhzdQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_BEQzW0nKEeiuv6VtVNhzdQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_BEakRknKEeiuv6VtVNhzdQ" type="3003" element="_BEQzRUnKEeiuv6VtVNhzdQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_BEakR0nKEeiuv6VtVNhzdQ" fontName="微软雅黑"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BEakSEnKEeiuv6VtVNhzdQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_BEQzWEnKEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BEQzWUnKEeiuv6VtVNhzdQ" x="158" y="85" width="92" height="21"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_G2qFJUnJEeiuv6VtVNhzdQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_G2qFJknJEeiuv6VtVNhzdQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_G2qFIUnJEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G2qFIknJEeiuv6VtVNhzdQ" x="660" y="240"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_jb55N0nHEeiuv6VtVNhzdQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_usRaTknHEeiuv6VtVNhzdQ" type="4001" element="_urq9QEnHEeiuv6VtVNhzdQ" source="_kJR8kEnHEeiuv6VtVNhzdQ" target="_kjd-MEnHEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_usRaUknHEeiuv6VtVNhzdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_usRaU0nHEeiuv6VtVNhzdQ" x="-9" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_usRaVEnHEeiuv6VtVNhzdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_usRaVUnHEeiuv6VtVNhzdQ" x="26" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_usRaVknHEeiuv6VtVNhzdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_usRaV0nHEeiuv6VtVNhzdQ" x="-45" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_usRaT0nHEeiuv6VtVNhzdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_usRaUEnHEeiuv6VtVNhzdQ" fontColor="16777215" fontName="微软雅黑" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_usRaUUnHEeiuv6VtVNhzdQ" points="[0, 0, -276, 0]$[276, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_usRaWEnHEeiuv6VtVNhzdQ" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_usRaWUnHEeiuv6VtVNhzdQ" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_CuJXo0nJEeiuv6VtVNhzdQ" type="4001" element="_CuJXoEnJEeiuv6VtVNhzdQ" source="_kJR8kEnHEeiuv6VtVNhzdQ" target="_JTuZ8EnIEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_CuJXp0nJEeiuv6VtVNhzdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CuJXqEnJEeiuv6VtVNhzdQ" x="-4" y="-6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CuJXqUnJEeiuv6VtVNhzdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CuJXqknJEeiuv6VtVNhzdQ" x="-7" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CuJXq0nJEeiuv6VtVNhzdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CuJXrEnJEeiuv6VtVNhzdQ" x="-11" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_CuJXpEnJEeiuv6VtVNhzdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_CuJXpUnJEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CuJXpknJEeiuv6VtVNhzdQ" points="[5, 34, -7, -32]$[12, 66, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CuJXrUnJEeiuv6VtVNhzdQ" id="(0.496,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CuJXrknJEeiuv6VtVNhzdQ" id="(0.3,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_RwA-40nKEeiuv6VtVNhzdQ" type="4001" element="_RwA-4EnKEeiuv6VtVNhzdQ" source="_kjd-MEnHEeiuv6VtVNhzdQ" target="_G2qFIEnJEeiuv6VtVNhzdQ">
+          <children xmi:type="notation:Node" xmi:id="_RwA-50nKEeiuv6VtVNhzdQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RwA-6EnKEeiuv6VtVNhzdQ" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_RwA-6UnKEeiuv6VtVNhzdQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RwA-6knKEeiuv6VtVNhzdQ" x="6" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_RwA-60nKEeiuv6VtVNhzdQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RwA-7EnKEeiuv6VtVNhzdQ" x="9" y="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_RwA-5EnKEeiuv6VtVNhzdQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_RwA-5UnKEeiuv6VtVNhzdQ" fontName="微软雅黑" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RwA-5knKEeiuv6VtVNhzdQ" points="[-9, 4, 0, -33]$[-9, 36, 0, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RwA-7UnKEeiuv6VtVNhzdQ" id="(0.5,0.9428571428571428)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RwA-7knKEeiuv6VtVNhzdQ" id="(0.4576923076923077,0.006944444444444444)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_kIiVsEnHEeiuv6VtVNhzdQ" name="Strong" outgoingEdges="_urq9QEnHEeiuv6VtVNhzdQ _CuJXoEnJEeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.2/@subStates.0"/>
+      <semanticElements xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.2/@subStates.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_kIiVsUnHEeiuv6VtVNhzdQ" labelSize="14" showIcon="false" borderSize="3" borderSizeComputationExpression="1" backgroundColor="194,239,255">
+        <customFeatures>borderSize</customFeatures>
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='SubState']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='SubState']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_kjLDQEnHEeiuv6VtVNhzdQ" name="Weak" outgoingEdges="_RwA-4EnKEeiuv6VtVNhzdQ" incomingEdges="_urq9QEnHEeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.2/@subStates.1"/>
+      <semanticElements xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.2/@subStates.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_kjLDQUnHEeiuv6VtVNhzdQ" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="194,239,255">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='SubState']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='SubState']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_urq9QEnHEeiuv6VtVNhzdQ" sourceNode="_kIiVsEnHEeiuv6VtVNhzdQ" targetNode="_kjLDQEnHEeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedStates.2/@subtransitions.0"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedStates.2/@subtransitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_urq9QUnHEeiuv6VtVNhzdQ" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@edgeMappings[name='Sub-ComTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_urq9QknHEeiuv6VtVNhzdQ" labelColor="255,255,255"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@edgeMappings[name='Sub-ComTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_usRaMEnHEeiuv6VtVNhzdQ" name="y&lt;24" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedStates.2/@subtransitions.0"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedStates.2/@subtransitions.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_usRaMUnHEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/guard.png" labelColor="77,137,20" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@nodeMappings[name='Sub-Guard']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@nodeMappings[name='Sub-Guard']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_usRaMknHEeiuv6VtVNhzdQ" name="Strong_to_Weak" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedStates.2/@subtransitions.0"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedStates.2/@subtransitions.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_usRaM0nHEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/action.png" labelColor="114,159,207" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@nodeMappings[name='Sub-Action']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@nodeMappings[name='Sub-Action']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_usRaNEnHEeiuv6VtVNhzdQ" name="approach" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedStates.2/@subtransitions.0"/>
+      <semanticElements xmi:type="cpsml:ComTransition" href="TemperatureController.cpsml#//@ownedStates.2/@subtransitions.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_usRaNUnHEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/event.png" labelColor="39,76,114" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@nodeMappings[name='Sub-Event']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@nodeMappings[name='Sub-Event']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_JS1CEEnIEeiuv6VtVNhzdQ" name="StrongODE: y'=-0.07*y-0.1" incomingEdges="_CuJXoEnJEeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:ODE" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0"/>
+      <semanticElements xmi:type="cpsml:ODE" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_JS1CEUnIEeiuv6VtVNhzdQ" showIcon="false" workspacePath="/org.dsml.cpsml.design/icons/zhushi-smalll.png">
+        <customFeatures>showIcon</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_PRex0EnIEeiuv6VtVNhzdQ" name="f3">
+        <target xmi:type="cpsml:Function" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@function"/>
+        <semanticElements xmi:type="cpsml:Function" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@function"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_PRex0UnIEeiuv6VtVNhzdQ" workspacePath="/org.dsml.cpsml.design/icons/Function.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Vdg2QEnIEeiuv6VtVNhzdQ" name="-0.07*y-0.1" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="cpsml:Fright" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@function/@fright"/>
+          <semanticElements xmi:type="cpsml:Fright" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@function/@fright"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Vdg2QUnIEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@subNodeMappings[name='Sub-Fright']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@subNodeMappings[name='Sub-Fright']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dQWgcEnIEeiuv6VtVNhzdQ" name="t" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="cpsml:IndeVariable" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@function/@indevariable"/>
+          <semanticElements xmi:type="cpsml:IndeVariable" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@function/@indevariable"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_dQWgcUnIEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@subNodeMappings[name='Sub-Indevariable']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@subNodeMappings[name='Sub-Indevariable']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_fKDNAEnIEeiuv6VtVNhzdQ" name="y" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="cpsml:DeVariable" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@function/@devariable"/>
+          <semanticElements xmi:type="cpsml:DeVariable" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@function/@devariable"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_fKDNAUnIEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@subNodeMappings[name='Sub-DeVariable']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@subNodeMappings[name='Sub-DeVariable']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_nHvcUEnIEeiuv6VtVNhzdQ" name="y0=32" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Condition" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@condition"/>
+        <semanticElements xmi:type="cpsml:Condition" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@condition"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_nHvcUUnIEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Condition']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Condition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_rhOlEEnIEeiuv6VtVNhzdQ">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_rhOlEUnIEeiuv6VtVNhzdQ" workspacePath="/org.dsml.cpsml.design/icons/Function.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Interval']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Interval']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_riHV4EnIEeiuv6VtVNhzdQ" name="0.0" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_riHV4UnIEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/left.png" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Intervalleft']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Intervalleft']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_riHV4knIEeiuv6VtVNhzdQ" name="120.0" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_riHV40nIEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/right.png" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Intervalright']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Intervalright']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_riHV5EnIEeiuv6VtVNhzdQ" name="0.1" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.0/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_riHV5UnIEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/subinterval.png" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Intervalsubinterval']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Intervalsubinterval']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_CuJXoEnJEeiuv6VtVNhzdQ" sourceNode="_kIiVsEnHEeiuv6VtVNhzdQ" targetNode="_JS1CEEnIEeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.2/@subStates.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_CuJXoUnJEeiuv6VtVNhzdQ" lineStyle="dash" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@edgeMappings[name='Sub-ODE%20Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_CuJXoknJEeiuv6VtVNhzdQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@edgeMappings[name='Sub-ODE%20Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_G2OAQEnJEeiuv6VtVNhzdQ" name="WeakODE: y'=-0.04*y-0.1" incomingEdges="_RwA-4EnKEeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:ODE" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1"/>
+      <semanticElements xmi:type="cpsml:ODE" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_G2OAQUnJEeiuv6VtVNhzdQ" showIcon="false" workspacePath="/org.dsml.cpsml.design/icons/zhushi-smalll.png">
+        <customFeatures>showIcon</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_b2riUEnJEeiuv6VtVNhzdQ" name="f4">
+        <target xmi:type="cpsml:Function" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@function"/>
+        <semanticElements xmi:type="cpsml:Function" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@function"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_b2riUUnJEeiuv6VtVNhzdQ" workspacePath="/org.dsml.cpsml.design/icons/Function.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ghRCIEnJEeiuv6VtVNhzdQ" name="-0.04*y-0.1" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="cpsml:Fright" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@function/@fright"/>
+          <semanticElements xmi:type="cpsml:Fright" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@function/@fright"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ghRCIUnJEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@subNodeMappings[name='Sub-Fright']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@subNodeMappings[name='Sub-Fright']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_pW60MEnJEeiuv6VtVNhzdQ" name="t" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="cpsml:IndeVariable" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@function/@indevariable"/>
+          <semanticElements xmi:type="cpsml:IndeVariable" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@function/@indevariable"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_pW60MUnJEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@subNodeMappings[name='Sub-Indevariable']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@subNodeMappings[name='Sub-Indevariable']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ukxZIEnJEeiuv6VtVNhzdQ" name="y" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="cpsml:DeVariable" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@function/@devariable"/>
+          <semanticElements xmi:type="cpsml:DeVariable" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@function/@devariable"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_ukxZIUnJEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@subNodeMappings[name='Sub-DeVariable']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@subNodeMappings[name='Sub-DeVariable']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_6pM0UEnJEeiuv6VtVNhzdQ" name="y0=24" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Condition" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@condition"/>
+        <semanticElements xmi:type="cpsml:Condition" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@condition"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_6pM0UUnJEeiuv6VtVNhzdQ" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Condition']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Condition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_BD94UEnKEeiuv6VtVNhzdQ">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_BD94UUnKEeiuv6VtVNhzdQ" workspacePath="/org.dsml.cpsml.design/icons/Function.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Interval']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Interval']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BEQzQEnKEeiuv6VtVNhzdQ" name="0.0" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_BEQzQUnKEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/left.png" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Intervalleft']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Intervalleft']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BEQzQknKEeiuv6VtVNhzdQ" name="120.0" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_BEQzQ0nKEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/right.png" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Intervalright']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Intervalright']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BEQzREnKEeiuv6VtVNhzdQ" name="0.1" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@interval"/>
+        <semanticElements xmi:type="cpsml:Interval" href="TemperatureController.cpsml#//@ownedStates.2/@subodes.1/@interval"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_BEQzRUnKEeiuv6VtVNhzdQ" iconPath="/org.dsml.cpsml.design/icons/feature icons/subinterval.png" borderColor="255,255,255" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Intervalsubinterval']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Intervalsubinterval']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_RwA-4EnKEeiuv6VtVNhzdQ" sourceNode="_kjLDQEnHEeiuv6VtVNhzdQ" targetNode="_G2OAQEnJEeiuv6VtVNhzdQ">
+      <target xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.2/@subStates.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_RwA-4UnKEeiuv6VtVNhzdQ" lineStyle="dash" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@edgeMappings[name='Sub-ODE%20Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_RwA-4knKEeiuv6VtVNhzdQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@edgeMappings[name='Sub-ODE%20Edge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_jb55NEnHEeiuv6VtVNhzdQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.dsml.cpsml.design/description/cpsml.odesign#//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer"/>
+    <target xmi:type="cpsml:State" href="TemperatureController.cpsml#//@ownedStates.2"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

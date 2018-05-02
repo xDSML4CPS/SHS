@@ -1,0 +1,19 @@
+package org.xcpsml
+
+language XCPSML inherits org.dsml.cpsml.CPSML {
+with org.dsml.cpsml.k3dsa.cpsml.aspects.SystemAspect
+	with org.dsml.cpsml.k3dsa.cpsml.aspects.IntervalAspect
+	with org.dsml.cpsml.k3dsa.cpsml.aspects.ProbTransitionAspect
+	with org.dsml.cpsml.k3dsa.cpsml.aspects.ComTransitionAspect
+	with org.dsml.cpsml.k3dsa.cpsml.aspects.IndeVariableAspect
+	with org.dsml.cpsml.k3dsa.cpsml.aspects.DeVariableAspect
+	with org.dsml.cpsml.k3dsa.cpsml.aspects.ConditionAspect
+	with org.dsml.cpsml.k3dsa.cpsml.aspects.ODEAspect
+	with org.dsml.cpsml.k3dsa.cpsml.aspects.FunctionAspect
+	with org.dsml.cpsml.k3dsa.cpsml.aspects.StateAspect
+	with org.dsml.cpsml.k3dsa.cpsml.aspects.FrightAspect
+	with org.dsml.cpsml.k3dsa.cpsml.aspects.VariableAspect
+	with org.dsml.cpsml.k3dsa.cpsml.aspects.TransitionAspect
+
+
+}

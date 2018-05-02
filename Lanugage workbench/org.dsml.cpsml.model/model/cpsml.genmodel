@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.dsml.cpsml.model/src" modelPluginID="org.dsml.cpsml.model"
+    modelName="Cpsml" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>cpsml.ecore</foreignModel>
+  <genPackages prefix="Cpsml" disposableProviderFactory="true" ecorePackage="cpsml.ecore#/">
+    <genClasses ecoreClass="cpsml.ecore#//System">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//System/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cpsml.ecore#//System/ownedvariables"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cpsml.ecore#//System/relatedvariable"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cpsml.ecore#//System/ownedStates"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cpsml.ecore#//System/ownedTransitions"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cpsml.ecore#//System/initialState"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cpsml.ecore#//System/ownedodes"/>
+    </genClasses>
+    <genClasses ecoreClass="cpsml.ecore#//Variable">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//Variable/value"/>
+    </genClasses>
+    <genClasses ecoreClass="cpsml.ecore#//State">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//State/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cpsml.ecore#//State/slaveode"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cpsml.ecore#//State/outgoingComTransitions"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cpsml.ecore#//State/incomingComTransitions"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cpsml.ecore#//State/outgoingProbTransitions"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cpsml.ecore#//State/incomingProbTransitions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cpsml.ecore#//State/subStates"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cpsml.ecore#//State/initialsubstate"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cpsml.ecore#//State/subtransitions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cpsml.ecore#//State/subodes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cpsml.ecore#//State/subrelatedvariables"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cpsml.ecore#//State/subrelatedvariable"/>
+    </genClasses>
+    <genClasses ecoreClass="cpsml.ecore#//Transition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//Transition/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cpsml.ecore#//Transition/relatedvariable2"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//Transition/event"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//Transition/guard"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//Transition/action"/>
+    </genClasses>
+    <genClasses ecoreClass="cpsml.ecore#//ComTransition">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cpsml.ecore#//ComTransition/csrc"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cpsml.ecore#//ComTransition/ctgt"/>
+    </genClasses>
+    <genClasses ecoreClass="cpsml.ecore#//ProbTransition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//ProbTransition/probability"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cpsml.ecore#//ProbTransition/psrc"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cpsml.ecore#//ProbTransition/ptgt"/>
+    </genClasses>
+    <genClasses ecoreClass="cpsml.ecore#//ODE">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//ODE/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cpsml.ecore#//ODE/function"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cpsml.ecore#//ODE/condition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cpsml.ecore#//ODE/interval"/>
+    </genClasses>
+    <genClasses ecoreClass="cpsml.ecore#//Function">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//Function/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cpsml.ecore#//Function/indevariable"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cpsml.ecore#//Function/devariable"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cpsml.ecore#//Function/fright"/>
+    </genClasses>
+    <genClasses ecoreClass="cpsml.ecore#//Condition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//Condition/name"/>
+    </genClasses>
+    <genClasses ecoreClass="cpsml.ecore#//Interval">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//Interval/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//Interval/left"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//Interval/right"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//Interval/subinterval"/>
+    </genClasses>
+    <genClasses ecoreClass="cpsml.ecore#//IndeVariable">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//IndeVariable/name"/>
+    </genClasses>
+    <genClasses ecoreClass="cpsml.ecore#//DeVariable">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//DeVariable/name"/>
+    </genClasses>
+    <genClasses ecoreClass="cpsml.ecore#//Fright">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cpsml.ecore#//Fright/name"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

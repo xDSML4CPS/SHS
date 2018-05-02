@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="ASCII"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.xcpsml.xcpsml/src/" modelPluginID="org.xcpsml.xcpsml" modelName="XCPSML" complianceLevel="7.0" copyrightFields="false">
+  <foreignModel>platform:/resource/org.xcpsml.xcpsml/model/XCPSML.ecore</foreignModel>
+  <genPackages prefix="Cpsml" basePackage="org.xcpsml.xcpsml" disposableProviderFactory="true" fileExtensions="xcpsml">
+    <ecorePackage href="XCPSML.ecore#/"/>
+    <genClasses>
+      <ecoreClass href="XCPSML.ecore#//System"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//System/name"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//System/ownedvariables"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//System/relatedvariable"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//System/ownedStates"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//System/ownedTransitions"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//System/initialState"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//System/ownedodes"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//System/currentState"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//System/fatherState"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//System/ptok"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//System/ran"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//System/sub"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//System/y0label"/>
+      </genFeatures>
+      <genOperations>
+        <ecoreOperation href="XCPSML.ecore#//System/main"/>
+      </genOperations>
+      <genOperations>
+        <ecoreOperation href="XCPSML.ecore#//System/dojump"/>
+      </genOperations>
+      <genOperations>
+        <ecoreOperation href="XCPSML.ecore#//System/callscilab"/>
+      </genOperations>
+      <genOperations>
+        <ecoreOperation href="XCPSML.ecore#//System/RealizeInitializeModel"/>
+        <genParameters>
+          <ecoreParameter href="XCPSML.ecore#//System/RealizeInitializeModel/arguments"/>
+        </genParameters>
+      </genOperations>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="XCPSML.ecore#//Variable"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//Variable/value"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//Variable/Globalnv"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="XCPSML.ecore#//State"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//State/name"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//State/slaveode"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//State/outgoingComTransitions"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//State/incomingComTransitions"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//State/outgoingProbTransitions"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//State/incomingProbTransitions"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//State/subStates"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//State/initialsubstate"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//State/subtransitions"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//State/subodes"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//State/subrelatedvariables"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//State/subrelatedvariable"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses image="false">
+      <ecoreClass href="XCPSML.ecore#//Transition"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//Transition/name"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//Transition/relatedvariable2"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//Transition/event"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//Transition/guard"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//Transition/action"/>
+      </genFeatures>
+      <genOperations>
+        <ecoreOperation href="XCPSML.ecore#//Transition/holds"/>
+      </genOperations>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="XCPSML.ecore#//ComTransition"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//ComTransition/csrc"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//ComTransition/ctgt"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="XCPSML.ecore#//ProbTransition"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//ProbTransition/probability"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//ProbTransition/psrc"/>
+      </genFeatures>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//ProbTransition/ptgt"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="XCPSML.ecore#//ODE"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//ODE/name"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//ODE/function"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//ODE/condition"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//ODE/interval"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="XCPSML.ecore#//Function"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//Function/name"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//Function/indevariable"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//Function/devariable"/>
+      </genFeatures>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="XCPSML.ecore#//Function/fright"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="XCPSML.ecore#//Condition"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//Condition/name"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="XCPSML.ecore#//Interval"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//Interval/name"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//Interval/left"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//Interval/right"/>
+      </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//Interval/subinterval"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="XCPSML.ecore#//IndeVariable"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//IndeVariable/name"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="XCPSML.ecore#//DeVariable"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//DeVariable/name"/>
+      </genFeatures>
+    </genClasses>
+    <genClasses>
+      <ecoreClass href="XCPSML.ecore#//Fright"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="XCPSML.ecore#//Fright/name"/>
+      </genFeatures>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

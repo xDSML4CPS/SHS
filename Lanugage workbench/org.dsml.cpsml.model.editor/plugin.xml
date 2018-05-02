@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated cpsml -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="cpsml.presentation.CpsmlModelWizardID"
+            name="%_UI_CpsmlModelWizard_label"
+            class="cpsml.presentation.CpsmlModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/CpsmlModelFile.gif">
+         <description>%_UI_CpsmlModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated cpsml -->
+      <editor
+            id="cpsml.presentation.CpsmlEditorID"
+            name="%_UI_CpsmlEditor_label"
+            icon="icons/full/obj16/CpsmlModelFile.gif"
+            extensions="cpsml"
+            class="cpsml.presentation.CpsmlEditor"
+            contributorClass="cpsml.presentation.CpsmlActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="cpsml" nsURI="http://org.xcpsml.xcpsml/cpsml/" nsPrefix="cpsml">
+  <eClassifiers xsi:type="ecore:EClass" name="System">
+    <eOperations name="main">
+      <eAnnotations source="aspect"/>
+    </eOperations>
+    <eOperations name="dojump">
+      <eAnnotations source="aspect"/>
+    </eOperations>
+    <eOperations name="callscilab">
+      <eAnnotations source="aspect"/>
+    </eOperations>
+    <eOperations name="RealizeInitializeModel">
+      <eAnnotations source="aspect"/>
+      <eParameters name="arguments" upperBound="-1">
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eParameters>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedvariables" upperBound="-1" eType="//Variable" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="relatedvariable" lowerBound="1" eType="//Variable"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedStates" upperBound="-1" eType="//State" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedTransitions" upperBound="-1" eType="//Transition" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initialState" lowerBound="1" eType="//State"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ownedodes" upperBound="-1" eType="//ODE" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="currentState" unique="false" eType="//State">
+      <eAnnotations source="aspect"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fatherState" unique="false" eType="//State">
+      <eAnnotations source="aspect"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ptok" unique="false" eType="//ProbTransition">
+      <eAnnotations source="aspect"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ran" unique="false">
+      <eAnnotations source="aspect"/>
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EFloatObject"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sub" unique="false">
+      <eAnnotations source="aspect"/>
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="y0label" unique="false">
+      <eAnnotations source="aspect"/>
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Variable">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Globalnv" unique="false">
+      <eAnnotations source="aspect"/>
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="State">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="slaveode" lowerBound="1" eType="//ODE"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outgoingComTransitions" upperBound="-1" eType="//ComTransition" eOpposite="//ComTransition/csrc"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="incomingComTransitions" upperBound="-1" eType="//ComTransition" eOpposite="//ComTransition/ctgt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outgoingProbTransitions" upperBound="-1" eType="//ProbTransition" eOpposite="//ProbTransition/psrc"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="incomingProbTransitions" upperBound="-1" eType="//ProbTransition" eOpposite="//ProbTransition/ptgt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subStates" upperBound="-1" eType="//State" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initialsubstate" lowerBound="1" eType="//State"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subtransitions" upperBound="-1" eType="//Transition" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subodes" upperBound="-1" eType="//ODE" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subrelatedvariables" upperBound="-1" eType="//Variable" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subrelatedvariable" lowerBound="1" eType="//Variable"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Transition" abstract="true">
+    <eOperations name="holds">
+      <eAnnotations source="aspect"/>
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="relatedvariable2" lowerBound="1" eType="//Variable"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="event">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="guard">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="action">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ComTransition" eSuperTypes="//Transition">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="csrc" lowerBound="1" eType="//State" eOpposite="//State/outgoingComTransitions"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ctgt" lowerBound="1" eType="//State" eOpposite="//State/incomingComTransitions"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ProbTransition" eSuperTypes="//Transition">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="probability">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="psrc" lowerBound="1" eType="//State" eOpposite="//State/outgoingProbTransitions"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ptgt" lowerBound="1" eType="//State" eOpposite="//State/incomingProbTransitions"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ODE">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="function" lowerBound="1" eType="//Function" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="condition" lowerBound="1" eType="//Condition" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interval" lowerBound="1" eType="//Interval" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Function">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="indevariable" lowerBound="1" eType="//IndeVariable" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="devariable" lowerBound="1" eType="//DeVariable" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fright" lowerBound="1" eType="//Fright" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Condition">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Interval">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="left">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="right">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="subinterval">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IndeVariable">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DeVariable">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Fright">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+</ecore:EPackage>

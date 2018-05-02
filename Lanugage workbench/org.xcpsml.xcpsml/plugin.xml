@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<plugin>
+
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated XCPSML -->
+      <package
+            uri="http://org.xcpsml.xcpsml/cpsml/"
+            class="org.xcpsml.xcpsml.cpsml.CpsmlPackage"
+            genModel="model/XCPSML.genmodel"/>
+   </extension>
+
+</plugin>

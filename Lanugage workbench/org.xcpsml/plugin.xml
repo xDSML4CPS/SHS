@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.4"?><plugin>
+  <extension point="org.gemoc.gemoc_language_workbench.sequential.xdsml">
+    <XDSML_Definition modelLoader_class="org.gemoc.executionframework.extensions.sirius.modelloader.DefaultModelLoader" name="org.xcpsml.XCPSML" xdsmlFilePath="/org.xcpsml/bin/org/xcpsml/XCPSML.melange"/>
+  </extension>
+  <extension point="org.eclipse.emf.ecore.generated_package">
+    <!-- @generated XCPSMLMT -->
+    <package class="org.xcpsml.xcpsmlmt.cpsml.CpsmlPackage" genModel="model-gen/XCPSMLMT.genmodel" uri="http://org.xcpsml.xcpsmlmt/cpsml/"/>
+  </extension>
+  
+<extension point="fr.inria.diverse.melange.modeltype">
+    <modeltype id="org.xcpsml.XCPSMLMT" uri="http://org.xcpsml.xcpsmlmt/">
+      <subtyping modeltypeId="org.dsml.cpsml.CPSMLMT"/>
+    </modeltype>
+  </extension>
+  <extension point="fr.inria.diverse.melange.language">
+    <language aspects="Condition:org.xcpsml.xcpsml.aspects.ConditionAspect;ProbTransition:org.xcpsml.xcpsml.aspects.ProbTransitionAspect;Variable:org.xcpsml.xcpsml.aspects.VariableAspect;ComTransition:org.xcpsml.xcpsml.aspects.ComTransitionAspect;System:org.xcpsml.xcpsml.aspects.SystemAspect;ODE:org.xcpsml.xcpsml.aspects.ODEAspect;Function:org.xcpsml.xcpsml.aspects.FunctionAspect;State:org.xcpsml.xcpsml.aspects.StateAspect;Transition:org.xcpsml.xcpsml.aspects.TransitionAspect;DeVariable:org.xcpsml.xcpsml.aspects.DeVariableAspect;Fright:org.xcpsml.xcpsml.aspects.FrightAspect;IndeVariable:org.xcpsml.xcpsml.aspects.IndeVariableAspect;Interval:org.xcpsml.xcpsml.aspects.IntervalAspect" entryPoints="org.xcpsml.xcpsml.aspects.SystemAspect.main(org.xcpsml.xcpsml.cpsml.System)" exactType="org.xcpsml.XCPSMLMT" id="org.xcpsml.XCPSML" uri="http://org.xcpsml.xcpsml/cpsml/">
+      <adapter class="org.xcpsml.xcpsml.adapters.cpsmlmt.XCPSMLAdapter" modeltypeId="org.dsml.cpsml.CPSMLMT"/>
+      <adapter class="org.xcpsml.xcpsml.adapters.xcpsmlmt.XCPSMLAdapter" modeltypeId="org.xcpsml.XCPSMLMT"/>
+    </language>
+  </extension>
+</plugin>

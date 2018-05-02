@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="cpsml" version="11.1.1.201610211630">
+  <ownedViewpoints name="CPSML_Viewpoint" modelFileExtension="cpsml">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="System" label="System" initialisation="true" domainClass="cpsml.System" enablePopupBars="true">
+      <metamodel href="../../org.dsml.cpsml.model/model/cpsml.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="Variable" label="Variable" semanticCandidatesExpression="[self.ownedvariables/]" domainClass="cpsml.Variable">
+          <style xsi:type="style:SquareDescription" labelExpression="feature:value" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Guard" semanticCandidatesExpression="[self.ownedTransitions/]" domainClass="cpsml.Transition">
+          <style xsi:type="style:SquareDescription" labelExpression="feature:guard" iconPath="/org.dsml.cpsml.design/icons/feature icons/guard.png" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_green']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Action" label="Action" semanticCandidatesExpression="[self.ownedTransitions/]" domainClass="cpsml.Transition">
+          <style xsi:type="style:EllipseNodeDescription" labelExpression="feature:action" iconPath="/org.dsml.cpsml.design/icons/feature icons/action.png" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Probability" label="Probability" semanticCandidatesExpression="[self.ownedTransitions/]" domainClass="cpsml.ProbTransition">
+          <style xsi:type="style:EllipseNodeDescription" labelExpression="feature:probability" iconPath="/org.dsml.cpsml.design/icons/feature icons/prob.png" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Event" label="Event" semanticCandidatesExpression="[self.ownedTransitions/]" domainClass="cpsml.Transition">
+          <style xsi:type="style:SquareDescription" labelExpression="feature:event" iconPath="/org.dsml.cpsml.design/icons/feature icons/event.png" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="ComTransition" label="ComTransition" semanticCandidatesExpression="[self.ownedTransitions/]" sourceMapping="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='State']" targetMapping="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='State']" targetFinderExpression="[self.ctgt/]" sourceFinderExpression="[self.csrc/]" domainClass="cpsml.ComTransition" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ProbTransition" semanticCandidatesExpression="[self.ownedTransitions/]" sourceMapping="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='State']" targetMapping="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='State']" targetFinderExpression="[self.ptgt/]" sourceFinderExpression="[self.psrc/]" domainClass="cpsml.ProbTransition" useDomainElement="true">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ODE Edge" label="ODE Edge" sourceMapping="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='State']" targetMapping="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']" targetFinderExpression="feature:slaveode">
+          <style lineStyle="dash" targetArrow="NoDecoration" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="ODE" semanticCandidatesExpression="[self.ownedodes/]" domainClass="cpsml.ODE">
+          <subNodeMappings name="Condition" semanticCandidatesExpression="feature:condition" domainClass="cpsml.Condition">
+            <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Intervalleft" label="Intervalleft" semanticCandidatesExpression="feature:interval" domainClass="cpsml.Interval">
+            <style xsi:type="style:SquareDescription" labelExpression="feature:left" iconPath="/org.dsml.cpsml.design/icons/feature icons/left.png" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Intervalright" label="Intervalright" semanticCandidatesExpression="feature:interval" domainClass="cpsml.Interval">
+            <style xsi:type="style:SquareDescription" labelExpression="feature:right" iconPath="/org.dsml.cpsml.design/icons/feature icons/right.png" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Subinterval" label="Subinterval" semanticCandidatesExpression="feature:interval" domainClass="cpsml.Interval">
+            <style xsi:type="style:SquareDescription" labelExpression="feature:subinterval" iconPath="/org.dsml.cpsml.design/icons/feature icons/subinterval.png" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subContainerMappings name="Function" semanticCandidatesExpression="[self.function/]" domainClass="cpsml.Function">
+            <subNodeMappings name="Fright" semanticCandidatesExpression="feature:fright" domainClass="cpsml.Fright">
+              <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="IndeVariable" label="IndeVariable" semanticCandidatesExpression="feature:indevariable" domainClass="cpsml.IndeVariable">
+              <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="Devariable" label="Devariable" semanticCandidatesExpression="feature:devariable" domainClass="cpsml.DeVariable">
+              <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" workspacePath="/org.dsml.cpsml.design/icons/Function.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="Interval" label="Interval" semanticCandidatesExpression="feature:interval" domainClass="cpsml.Interval">
+            <style xsi:type="style:WorkspaceImageDescription" workspacePath="/org.dsml.cpsml.design/icons/Function.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" workspacePath="/org.dsml.cpsml.design/icons/zhushi-smalll.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="State" label="State" semanticCandidatesExpression="[self.ownedStates/]" doubleClickDescription="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@toolSections.0/@ownedTools[name='StateDoubleClick']" domainClass="cpsml.State">
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="9" showIcon="false" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Tools">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Variable" nodeMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@nodeMappings[name='Variable']" iconPath="/org.dsml.cpsml.design/icons/palette-variable.gif">
+            <variable name="variablecontainer"/>
+            <viewVariable name="variablecontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.Variable" referenceName="ownedvariables" variableName="itsvariable"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="State" label="State" containerMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='State']" iconPath="/org.dsml.cpsml.design/icons/palette-state.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.State" referenceName="ownedStates" variableName="itsState">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="State"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="ComTransition" label="ComTransition" edgeMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ComTransition']" iconPath="/org.dsml.cpsml.design/icons/palette-comTransition.gif">
+            <sourceVariable name="csrc"/>
+            <targetVariable name="ctgt"/>
+            <sourceViewVariable name="ctgtView"/>
+            <targetViewVariable name="tgtView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.ComTransition" referenceName="ownedTransitions">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:csrc.name+'_to'+ctgt.name"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="csrc" valueExpression="aql:csrc"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="ctgt" valueExpression="aql:ctgt"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="ProbTransition" edgeMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@edgeMappings[name='ProbTransition']" iconPath="/org.dsml.cpsml.design/icons/palette-probTransition.gif">
+            <sourceVariable name="psrc"/>
+            <targetVariable name="ptgt"/>
+            <sourceViewVariable name="psrcView"/>
+            <targetViewVariable name="ptgtView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.ProbTransition" referenceName="ownedTransitions">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:psrc.name+'_to_'+ptgt.name"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="psrc" valueExpression="aql:psrc"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="ptgt" valueExpression="aql:ptgt"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="StateDoubleClick" label="StateDoubleClick" mappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='State']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="ODE" label="ODE" containerMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']" iconPath="/org.dsml.cpsml.design/icons/palette-ODE.gif">
+            <variable name="odecontainer"/>
+            <viewVariable name="odecontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.ODE" referenceName="ownedodes" variableName="itsode">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="ODE"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Function" label="*" containerMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']" iconPath="/org.dsml.cpsml.design/icons/palette-function.gif">
+            <variable name="functioncontainer"/>
+            <viewVariable name="functioncontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.Function" referenceName="function">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="f1?"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Fright" label="*" nodeMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@subNodeMappings[name='Fright']" iconPath="/org.dsml.cpsml.design/icons/palette-fright.gif">
+            <variable name="frightcontainer"/>
+            <viewVariable name="frightcontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.Fright" referenceName="fright">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="input fright"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Indevariable" label="*" nodeMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@subNodeMappings[name='IndeVariable']" iconPath="/org.dsml.cpsml.design/icons/palette-indevariable.gif">
+            <variable name="indevariablecontainer"/>
+            <viewVariable name="indevariablecontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.IndeVariable" referenceName="indevariable">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="x?"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Devariable" label="*" nodeMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Function']/@subNodeMappings[name='Devariable']" iconPath="/org.dsml.cpsml.design/icons/palette-devariable.gif">
+            <variable name="devariablecontainer"/>
+            <viewVariable name="devariablecontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.DeVariable" referenceName="devariable">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="y?"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ODECondition" label="*" nodeMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subNodeMappings[name='Condition']" iconPath="/org.dsml.cpsml.design/icons/palette-condition.gif">
+            <variable name="odeconditioncontainer"/>
+            <viewVariable name="odeconditioncontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.Condition" referenceName="condition">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="input ode condition!"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="ODEInterval" label="*" containerMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='System']/@defaultLayer/@containerMappings[name='ODE']/@subContainerMappings[name='Interval']" iconPath="/org.dsml.cpsml.design/icons/palette-interval.gif">
+            <variable name="intervalcontainer"/>
+            <viewVariable name="intervalcontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.Interval" referenceName="interval">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="interval"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="State SubSystem Diagram" titleExpression="aql:'Information of '+self.name " initialisation="true" domainClass="cpsml.State" enablePopupBars="true">
+      <metamodel href="../../org.dsml.cpsml.model/model/cpsml.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="Sub-Variable" label="Sub-Variable" semanticCandidatesExpression="[self.subrelatedvariables/]" domainClass="cpsml.Variable">
+          <style xsi:type="style:SquareDescription" labelExpression="feature:value" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Sub-Guard" label="Sub-Guard" semanticCandidatesExpression="[self.subtransitions/]" domainClass="cpsml.Transition">
+          <style xsi:type="style:SquareDescription" labelExpression="feature:guard" iconPath="/org.dsml.cpsml.design/icons/feature icons/guard.png" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_green']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Sub-Action" label="Sub-Action" semanticCandidatesExpression="[self.subtransitions/]" domainClass="cpsml.Transition">
+          <style xsi:type="style:EllipseNodeDescription" labelExpression="feature:action" iconPath="/org.dsml.cpsml.design/icons/feature icons/action.png" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Sub-Probability" label="Sub-Probability" semanticCandidatesExpression="[self.subtransitions/]" domainClass="cpsml.ProbTransition">
+          <style xsi:type="style:EllipseNodeDescription" labelExpression="feature:probability" iconPath="/org.dsml.cpsml.design/icons/feature icons/prob.png" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Sub-Event" label="Sub-Event" semanticCandidatesExpression="[self.subtransitions/]" domainClass="cpsml.Transition">
+          <style xsi:type="style:SquareDescription" labelExpression="feature:event" iconPath="/org.dsml.cpsml.design/icons/feature icons/event.png" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="Sub-ComTransition" label="Sub-ComTransition" semanticCandidatesExpression="[self.subtransitions/]" sourceMapping="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='SubState']" targetMapping="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='SubState']" targetFinderExpression="[self.ctgt/]" sourceFinderExpression="[self.csrc/]" domainClass="cpsml.ComTransition" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Sub-ProbTransition" label="Sub-ProbTransition" semanticCandidatesExpression="[self.subtransitions/]" sourceMapping="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='SubState']" targetMapping="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='SubState']" targetFinderExpression="[self.ptgt/]" sourceFinderExpression="[self.psrc/]" domainClass="cpsml.ProbTransition" useDomainElement="true">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Sub-ODE Edge" label="Sub-ODE Edge" sourceMapping="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='SubState']" targetMapping="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']" targetFinderExpression="feature:slaveode">
+          <style lineStyle="dash" targetArrow="NoDecoration" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="SubState" label="Sub-State" semanticCandidatesExpression="[self.subStates/]" domainClass="cpsml.State">
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="9" showIcon="false" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.2"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="Sub-ODE" label="Sub-ODE" semanticCandidatesExpression="feature:subodes" domainClass="cpsml.ODE">
+          <subNodeMappings name="Sub-Condition" label="Sub-Condition" semanticCandidatesExpression="feature:condition" domainClass="cpsml.Condition">
+            <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Sub-Intervalleft" semanticCandidatesExpression="feature:interval" domainClass="cpsml.Interval">
+            <style xsi:type="style:SquareDescription" labelExpression="feature:left" iconPath="/org.dsml.cpsml.design/icons/feature icons/left.png" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Sub-Intervalright" semanticCandidatesExpression="feature:interval" domainClass="cpsml.Interval">
+            <style xsi:type="style:SquareDescription" labelExpression="feature:right" iconPath="/org.dsml.cpsml.design/icons/feature icons/right.png" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Sub-Intervalsubinterval" semanticCandidatesExpression="feature:interval" domainClass="cpsml.Interval">
+            <style xsi:type="style:SquareDescription" labelExpression="feature:subinterval" iconPath="/org.dsml.cpsml.design/icons/feature icons/subinterval.png" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subContainerMappings name="Sub-Function" label="Sub-Function" semanticCandidatesExpression="[self.function/]" domainClass="cpsml.Function">
+            <subNodeMappings name="Sub-Fright" semanticCandidatesExpression="feature:fright" domainClass="cpsml.Fright">
+              <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="Sub-Indevariable" semanticCandidatesExpression="feature:indevariable" domainClass="cpsml.IndeVariable">
+              <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="Sub-DeVariable" semanticCandidatesExpression="feature:devariable" domainClass="cpsml.DeVariable">
+              <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" workspacePath="/org.dsml.cpsml.design/icons/Function.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="Sub-Interval" semanticCandidatesExpression="feature:interval" domainClass="cpsml.Interval">
+            <style xsi:type="style:WorkspaceImageDescription" workspacePath="/org.dsml.cpsml.design/icons/Function.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:WorkspaceImageDescription" workspacePath="/org.dsml.cpsml.design/icons/zhushi-smalll.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="tools2">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Sub-State" containerMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='SubState']" iconPath="/org.dsml.cpsml.design/icons/palette-state.gif">
+            <variable name="subcontainer"/>
+            <viewVariable name="subcontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.State" referenceName="subStates" variableName="itsubstate">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="subState"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Sub-ODE" label="Sub-ODE" containerMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']" iconPath="/org.dsml.cpsml.design/icons/palette-ODE.gif">
+            <variable name="subodecontainer"/>
+            <viewVariable name="subodecontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.ODE" referenceName="subodes" variableName="itssubode">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="SubODE"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Sub-Variable" label="Sub-Variable" nodeMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@nodeMappings[name='Sub-Variable']" iconPath="/org.dsml.cpsml.design/icons/palette-variable.gif">
+            <variable name="subvariablecontainer"/>
+            <viewVariable name="subvariablecontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.Variable" referenceName="subrelatedvariables"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Sub-ComTransition" label="Sub-ComTransition" edgeMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@edgeMappings[name='Sub-ComTransition']" iconPath="/org.dsml.cpsml.design/icons/palette-comTransition.gif">
+            <sourceVariable name="csrc"/>
+            <targetVariable name="ctgt"/>
+            <sourceViewVariable name="subcsrcView"/>
+            <targetViewVariable name="subctgtView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.ComTransition" referenceName="subtransitions" variableName="itsub">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:csrc.name+'_to'+ctgt.name"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="csrc" valueExpression="aql:csrc"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="ctgt" valueExpression="aql:ctgt"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Sub-ProbTransition" label="Sub-ProbTransition" edgeMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@edgeMappings[name='Sub-ProbTransition']" iconPath="/org.dsml.cpsml.design/icons/palette-probTransition.gif">
+            <sourceVariable name="psrc"/>
+            <targetVariable name="ptgt"/>
+            <sourceViewVariable name="subpsrcView"/>
+            <targetViewVariable name="subptgtView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.ProbTransition" referenceName="subtransitions">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:psrc.name+'_to_'+ptgt.name"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="psrc" valueExpression="aql:psrc"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="ptgt" valueExpression="aql:ptgt"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Sub-Function" label="*" containerMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']" iconPath="/org.dsml.cpsml.design/icons/palette-function.gif">
+            <variable name="subfunctionnamecontainer"/>
+            <viewVariable name="subfunctionnamecontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.Function" referenceName="function">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="f1?"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Sub-Fright" label="*" nodeMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@subNodeMappings[name='Sub-Fright']" iconPath="/org.dsml.cpsml.design/icons/palette-fright.gif">
+            <variable name="subfrightcontainer"/>
+            <viewVariable name="subfrightcontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.Fright" referenceName="fright">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="input fright"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Sub-IndeVariable" label="*" nodeMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@subNodeMappings[name='Sub-Indevariable']" iconPath="/org.dsml.cpsml.design/icons/palette-indevariable.gif">
+            <variable name="subindevariablecontainer"/>
+            <viewVariable name="subindevariablecontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.IndeVariable" referenceName="indevariable">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="x?"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Sub-DeVariable" label="*" nodeMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Function']/@subNodeMappings[name='Sub-DeVariable']" iconPath="/org.dsml.cpsml.design/icons/palette-devariable.gif">
+            <variable name="subdevariablecontainer"/>
+            <viewVariable name="subdevariablecontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.DeVariable" referenceName="devariable">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="y?"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Sub-ODECondition" label="*" nodeMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subNodeMappings[name='Sub-Condition']" iconPath="/org.dsml.cpsml.design/icons/palette-condition.gif">
+            <variable name="subodeconditioncontainer"/>
+            <viewVariable name="subodeconditioncontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.Condition" referenceName="condition">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="input ode condition!"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Sub-Interval" label="*" containerMappings="//@ownedViewpoints[name='CPSML_Viewpoint']/@ownedRepresentations[name='State%20SubSystem%20Diagram']/@defaultLayer/@containerMappings[name='Sub-ODE']/@subContainerMappings[name='Sub-Interval']" iconPath="/org.dsml.cpsml.design/icons/palette-interval.gif">
+            <variable name="subintervalcontainer"/>
+            <viewVariable name="subintervalcontainerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="cpsml.Interval" referenceName="interval">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="org.dsml.cpsml.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

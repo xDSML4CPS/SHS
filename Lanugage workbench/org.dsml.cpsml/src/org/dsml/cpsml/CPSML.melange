@@ -1,0 +1,8 @@
+package org.dsml.cpsml
+
+external language CPSML {
+	syntax "platform:/resource/org.dsml.cpsml.model/model/cpsml.ecore"
+	
+
+
+}
